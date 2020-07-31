@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - wall
+  - inimigo
+  - ground
+  - bossDoor
+  - simpleDoor
+  - safeDoor
+  - doorInSafe
+  - PowerUp
+  - slopes
+  - hp_pack1
+  - callBossText
+  - hp_up
+  - water
+  - platform
+  - breakObject
+  - RideArmor
+  - inimigoBullet
+  - checkpoint
+  - instantkill
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - ground
+  - player
+  - bullets
+  - Confiner
+  - slopes
+  - slopeHitBox
+  - mapIcon
+  - enemies
+  - enemies_groundhitbox
+  - rideArmorCollider
+  - minimap_collider
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

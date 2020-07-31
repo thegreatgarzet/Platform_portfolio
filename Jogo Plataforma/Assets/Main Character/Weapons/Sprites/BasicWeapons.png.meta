@@ -1,0 +1,859 @@
+fileFormatVersion: 2
+guid: 42db69193e224b94cb6093ab69ec05ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2644155023881202015
+    second: BasicWeapons_0
+  - first:
+      213: -692128414529625706
+    second: BasicWeapons_1
+  - first:
+      213: 5361542371907885619
+    second: BasicWeapons_2
+  - first:
+      213: 1312684976050567296
+    second: BasicWeapons_3
+  - first:
+      213: 1243105701370874068
+    second: BasicWeapons_4
+  - first:
+      213: 5269245321348410049
+    second: BasicWeapons_5
+  - first:
+      213: -8715394245628667982
+    second: BasicWeapons_6
+  - first:
+      213: -5384792675884299337
+    second: BasicWeapons_7
+  - first:
+      213: -5701376226970947742
+    second: BasicWeapons_8
+  - first:
+      213: 4456845255064093189
+    second: BasicWeapons_9
+  - first:
+      213: -3817830476845935357
+    second: BasicWeapons_10
+  - first:
+      213: -8281319870725416694
+    second: BasicWeapons_11
+  - first:
+      213: 2527796241663083789
+    second: BasicWeapons_12
+  - first:
+      213: 1141327939075762478
+    second: BasicWeapons_13
+  - first:
+      213: -5907800660995538
+    second: BasicWeapons_14
+  - first:
+      213: 1018928473128312972
+    second: BasicWeapons_15
+  - first:
+      213: -5713774397800176372
+    second: BasicWeapons_16
+  - first:
+      213: 873720862206461789
+    second: BasicWeapons_17
+  - first:
+      213: -2557136495876342446
+    second: BasicWeapons_18
+  - first:
+      213: 641100117847902423
+    second: BasicWeapons_19
+  - first:
+      213: 3576939587835669535
+    second: BasicWeapons_20
+  - first:
+      213: -7174789236494387055
+    second: BasicWeapons_21
+  - first:
+      213: 859280185032132201
+    second: BasicWeapons_22
+  - first:
+      213: -5455645737030217617
+    second: BasicWeapons_23
+  - first:
+      213: 6997588669424616590
+    second: BasicWeapons_24
+  - first:
+      213: 4841244411713102906
+    second: BasicWeapons_25
+  - first:
+      213: -2197079751903446259
+    second: BasicWeapons_26
+  - first:
+      213: 5889047857650178571
+    second: BasicWeapons_27
+  - first:
+      213: 4984295313859929104
+    second: BasicWeapons_28
+  - first:
+      213: 1050752115435860446
+    second: BasicWeapons_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BasicWeapons_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 64
+        width: 8
+        height: 15
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436d2cca20e693a4eaf82e0f3f09224b
+      internalID: -2644155023881202015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 60
+        width: 16
+        height: 23
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67edd92a6fac8d044b06328d5f72c694
+      internalID: -692128414529625706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 56
+        width: 17
+        height: 29
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1fc23a7ce38fa42beb06be3e3bb959
+      internalID: 5361542371907885619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2871b1f1610ed2640a42ffa3f0aff64c
+      internalID: 1312684976050567296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_4
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f42efcc67b9224cb2fe17aaa70e456
+      internalID: 1243105701370874068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 55
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caef7e972561d154d8de02f92d36fbf9
+      internalID: 5269245321348410049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 52
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc988a0471f6384d87dbbea3a9729dc
+      internalID: -8715394245628667982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 53
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ceff874109bfd44fb7d49fa2e2a282d
+      internalID: -5384792675884299337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 52
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccfffca456753546b8a62e71c159e8e
+      internalID: -5701376226970947742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_9
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 57
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdf3d2687ba0fe468559bea626c7f5d
+      internalID: 4456845255064093189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_10
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 54
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc5cbd0baf4fb044ac1b7f97de34f9c
+      internalID: -3817830476845935357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 56
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65864a24feb0434995d78cfa0f58891
+      internalID: -8281319870725416694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95470fee800e8044a0f2811534826d5
+      internalID: 2527796241663083789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376c6edd634d0ff478e25bcd1100d874
+      internalID: 1141327939075762478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3381bb4d5bdfb74db53a1d32463007b
+      internalID: -5907800660995538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 19
+        width: 25
+        height: 16
+      alignment: 9
+      pivot: {x: 0.9703154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e9ad7efd2782141979cad32ee3f24a
+      internalID: -5713774397800176372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_17
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 20
+        width: 25
+        height: 16
+      alignment: 9
+      pivot: {x: 0.9714953, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69d12d654813ba46b5c8739ccb91b64
+      internalID: 873720862206461789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_18
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 18
+        width: 25
+        height: 16
+      alignment: 9
+      pivot: {x: 0.9703154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739997765568a5c4cae6e1aa0849404f
+      internalID: -2557136495876342446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_19
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 10
+        width: 11
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c91e71627a9c844b36785aacbd8daa
+      internalID: 641100117847902423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_20
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 20
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6449348fac79e504d86d80658e977815
+      internalID: 3576939587835669535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 22
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bbe2b5af1b1fb4fa4decf0457f5356
+      internalID: -7174789236494387055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_22
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 27
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9664f5f86c6cceb00800000000000000
+      internalID: 859280185032132201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_23
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 21
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6090ff7b17a944b0800000000000000
+      internalID: -5455645737030217617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_24
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 3
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e844a5de1dd6c1160800000000000000
+      internalID: 6997588669424616590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_25
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 4
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a342107742e8f2340800000000000000
+      internalID: 4841244411713102906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_26
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 41
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b77943b976281e0800000000000000
+      internalID: -2197079751903446259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 40
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a938433d91ab150800000000000000
+      internalID: 5889047857650178571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_28
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 39
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014e3461e26cb2540800000000000000
+      internalID: 4984295313859929104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 39
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed17b8b5b75059e00800000000000000
+      internalID: 1050752115435860446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicWeapons_15
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 17
+        width: 25
+        height: 16
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80285c3c06f32e00800000000000000
+      internalID: 1018928473128312972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

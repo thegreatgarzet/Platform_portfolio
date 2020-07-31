@@ -1,0 +1,13 @@
+BOT-001: Vai toma no cu muzzi!
+
+
+
+[title=boss1_start]
+[BOT-001]:Teste! Teste teste?
+[BOT-001]:Teste?!
+[OvenHeater]:Teste.....
+[OvenHeater]:Teste! Teste Teste.
+[title=boss1_end]
+
+
+

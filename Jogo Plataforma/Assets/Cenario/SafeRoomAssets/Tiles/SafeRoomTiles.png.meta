@@ -1,0 +1,1315 @@
+fileFormatVersion: 2
+guid: 48bae3fe35cdb1c44bf24b70657b2d93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4988666592997369091
+    second: SafeRoomTiles_0
+  - first:
+      213: -9040220755215326052
+    second: SafeRoomTiles_1
+  - first:
+      213: 2670942450294911428
+    second: SafeRoomTiles_2
+  - first:
+      213: -1257670966665826504
+    second: SafeRoomTiles_3
+  - first:
+      213: -815189637533853402
+    second: SafeRoomTiles_4
+  - first:
+      213: -8248922692100555740
+    second: SafeRoomTiles_5
+  - first:
+      213: 4024086072078156084
+    second: SafeRoomTiles_6
+  - first:
+      213: -5926156807048753291
+    second: SafeRoomTiles_7
+  - first:
+      213: 2985535811815184110
+    second: SafeRoomTiles_8
+  - first:
+      213: -4471633959048850356
+    second: SafeRoomTiles_9
+  - first:
+      213: -466522978881638405
+    second: SafeRoomTiles_10
+  - first:
+      213: -3919971375856830469
+    second: SafeRoomTiles_11
+  - first:
+      213: -4087488248580858427
+    second: SafeRoomTiles_12
+  - first:
+      213: -5788322178351521354
+    second: SafeRoomTiles_13
+  - first:
+      213: -2337277639590271715
+    second: SafeRoomTiles_14
+  - first:
+      213: 5767694551464427614
+    second: SafeRoomTiles_15
+  - first:
+      213: 9054687687539723865
+    second: SafeRoomTiles_16
+  - first:
+      213: -4041546511453568944
+    second: SafeRoomTiles_17
+  - first:
+      213: -8764013302814267835
+    second: SafeRoomTiles_18
+  - first:
+      213: 5468278776839275334
+    second: SafeRoomTiles_19
+  - first:
+      213: 2075421399535216888
+    second: SafeRoomTiles_20
+  - first:
+      213: 5559642124603351928
+    second: SafeRoomTiles_21
+  - first:
+      213: -2909628243472567272
+    second: SafeRoomTiles_22
+  - first:
+      213: 4474761946321032787
+    second: SafeRoomTiles_23
+  - first:
+      213: -6585157750224828375
+    second: SafeRoomTiles_24
+  - first:
+      213: 7428282604687902922
+    second: SafeRoomTiles_25
+  - first:
+      213: -6100908450641358934
+    second: SafeRoomTiles_26
+  - first:
+      213: 4861329667677717980
+    second: SafeRoomTiles_27
+  - first:
+      213: 2198766142937417939
+    second: SafeRoomTiles_28
+  - first:
+      213: -8560228169551344224
+    second: SafeRoomTiles_29
+  - first:
+      213: 110065762576166956
+    second: SafeRoomTiles_30
+  - first:
+      213: -4134963107664991861
+    second: SafeRoomTiles_31
+  - first:
+      213: -732697043965476161
+    second: SafeRoomTiles_32
+  - first:
+      213: 5334682140786403064
+    second: SafeRoomTiles_33
+  - first:
+      213: -477905307891725428
+    second: SafeRoomTiles_34
+  - first:
+      213: -139160294035555333
+    second: SafeRoomTiles_35
+  - first:
+      213: -594599890561241224
+    second: SafeRoomTiles_36
+  - first:
+      213: -5498872624361666993
+    second: SafeRoomTiles_37
+  - first:
+      213: 4261859300042057161
+    second: SafeRoomTiles_38
+  - first:
+      213: -8252043639279292430
+    second: SafeRoomTiles_39
+  - first:
+      213: -8609787961879870602
+    second: SafeRoomTiles_40
+  - first:
+      213: -1834108917034992494
+    second: SafeRoomTiles_41
+  - first:
+      213: 2221092218483051506
+    second: SafeRoomTiles_42
+  - first:
+      213: 6283494733674813995
+    second: SafeRoomTiles_43
+  - first:
+      213: 6207618952393454180
+    second: SafeRoomTiles_44
+  - first:
+      213: -1129037705700757831
+    second: SafeRoomTiles_45
+  - first:
+      213: 7332445033361718338
+    second: SafeRoomTiles_46
+  - first:
+      213: -7986003398012808738
+    second: SafeRoomTiles_47
+  - first:
+      213: -5865400665159693739
+    second: SafeRoomTiles_48
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SafeRoomTiles_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 369
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3056772d5dd4b3540800000000000000
+      internalID: 4988666592997369091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 369
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94e64ace1faa8280800000000000000
+      internalID: -9040220755215326052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 369
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1f65dd108111520800000000000000
+      internalID: 2670942450294911428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 368
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83faf835beadb8ee0800000000000000
+      internalID: -1257670966665826504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_4
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 368
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629173ef75ddfa4f0800000000000000
+      internalID: -815189637533853402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_5
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 368
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cffa52480f58d80800000000000000
+      internalID: -8248922692100555740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 338
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431c0d746fc68d730800000000000000
+      internalID: 4024086072078156084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_7
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 338
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f889838cf02cda0800000000000000
+      internalID: -5926156807048753291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 338
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee69377b001ce6920800000000000000
+      internalID: 2985535811815184110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_9
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 368
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44d1512b9091f1c0800000000000000
+      internalID: -4471633959048850356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 368
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffe33c82d39689f0800000000000000
+      internalID: -466522978881638405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 368
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7ba547dc67999c0800000000000000
+      internalID: -3919971375856830469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 338
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd11c728135647c0800000000000000
+      internalID: -4087488248580858427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_13
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 338
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1a7d985afbbafa0800000000000000
+      internalID: -5788322178351521354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_14
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 338
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1522c6ce52509fd0800000000000000
+      internalID: -2337277639590271715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_15
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 368
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e504ef0d2a7fa0050800000000000000
+      internalID: 5767694551464427614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_16
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 368
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e88ef5a76b8ad70800000000000000
+      internalID: 9054687687539723865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_17
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 368
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05047916cda89e7c0800000000000000
+      internalID: -4041546511453568944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_18
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 338
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54625f6b558ff5680800000000000000
+      internalID: -8764013302814267835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_19
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 338
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643005a439a33eb40800000000000000
+      internalID: 5468278776839275334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_20
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 338
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f86a8e44c06dcc10800000000000000
+      internalID: 2075421399535216888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 339
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873e74b5e01d72d40800000000000000
+      internalID: 5559642124603351928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_22
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 339
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814bf57478cee97d0800000000000000
+      internalID: -2909628243472567272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_23
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 339
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35696e8284c891e30800000000000000
+      internalID: 4474761946321032787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 309
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92840f37ae1dc94a0800000000000000
+      internalID: -6585157750224828375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 309
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8c2a71caf861760800000000000000
+      internalID: 7428282604687902922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_26
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 309
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafc7509618355ba0800000000000000
+      internalID: -6100908450641358934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 278
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd58ff98399e67340800000000000000
+      internalID: 4861329667677717980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_28
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 278
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8c0fd4826938e10800000000000000
+      internalID: 2198766142937417939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_29
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 278
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad899575d5f33980800000000000000
+      internalID: -8560228169551344224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 248
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20f8485a38078100800000000000000
+      internalID: 110065762576166956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 248
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89684826f8ad96c0800000000000000
+      internalID: -4134963107664991861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 218
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb28576abefe4d5f0800000000000000
+      internalID: -732697043965476161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_33
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 218
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6a1378429980a40800000000000000
+      internalID: 5334682140786403064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_34
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b07de87a32e59f0800000000000000
+      internalID: -477905307891725428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_35
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 287
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbfb2b237a911ef0800000000000000
+      internalID: -139160294035555333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_36
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 287
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f6c93cc8e8fb7f0800000000000000
+      internalID: -594599890561241224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_37
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 287
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f468dcf7b7410b3b0800000000000000
+      internalID: -5498872624361666993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_38
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 288
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5a3bdf37a252b30800000000000000
+      internalID: 4261859300042057161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_39
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 288
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff6cb1080ada7d80800000000000000
+      internalID: -8252043639279292430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_40
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 288
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67347bc1773e38880800000000000000
+      internalID: -8609787961879870602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_41
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cb0c058afeb86e0800000000000000
+      internalID: -1834108917034992494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_42
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb0118da97e2de10800000000000000
+      internalID: 2221092218483051506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_43
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 125
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a99bc3b25733750800000000000000
+      internalID: 6283494733674813995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_44
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 155
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462f46e3c84e52650800000000000000
+      internalID: 6207618952393454180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_45
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 258
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be2fa5403ad450f0800000000000000
+      internalID: -1129037705700757831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_46
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 258
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c3a9ca8e312c560800000000000000
+      internalID: 7332445033361718338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_47
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1526e98340c2190800000000000000
+      internalID: -7986003398012808738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SafeRoomTiles_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 191
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a01d7db29e99ea0800000000000000
+      internalID: -5865400665159693739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

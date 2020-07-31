@@ -1,0 +1,1387 @@
+fileFormatVersion: 2
+guid: eb718f381ee3d784890e79dc663e0544
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6378159120118946601
+    second: Lunar Satelite_0
+  - first:
+      213: 7727863330679023916
+    second: Lunar Satelite_1
+  - first:
+      213: 3732783898195396794
+    second: Lunar Satelite_2
+  - first:
+      213: 3822849720485691482
+    second: Lunar Satelite_3
+  - first:
+      213: 7523359026987590734
+    second: Lunar Satelite_4
+  - first:
+      213: -8614298934868896953
+    second: Lunar Satelite_5
+  - first:
+      213: 323567452127364557
+    second: Lunar Satelite_6
+  - first:
+      213: 3044681925710487509
+    second: Lunar Satelite_7
+  - first:
+      213: 7603521988406391833
+    second: Lunar Satelite_8
+  - first:
+      213: -3844987686178387336
+    second: Lunar Satelite_9
+  - first:
+      213: -3516047906325608339
+    second: Lunar Satelite_10
+  - first:
+      213: -2065836965416773773
+    second: Lunar Satelite_11
+  - first:
+      213: 3013391162891080224
+    second: Lunar Satelite_12
+  - first:
+      213: 1642313425894347607
+    second: Lunar Satelite_13
+  - first:
+      213: 5471862071064002919
+    second: Lunar Satelite_14
+  - first:
+      213: -5978211970141851494
+    second: Lunar Satelite_15
+  - first:
+      213: -6742836634800200887
+    second: Lunar Satelite_16
+  - first:
+      213: -3477847940281635974
+    second: Lunar Satelite_17
+  - first:
+      213: 4710342392197350074
+    second: Lunar Satelite_18
+  - first:
+      213: -241874326846997031
+    second: Lunar Satelite_19
+  - first:
+      213: 989590668943450446
+    second: Lunar Satelite_20
+  - first:
+      213: -6840748790471193946
+    second: Lunar Satelite_21
+  - first:
+      213: -7231362235555393281
+    second: Lunar Satelite_22
+  - first:
+      213: 7106754733336126863
+    second: Lunar Satelite_23
+  - first:
+      213: -7396411093523939329
+    second: Lunar Satelite_24
+  - first:
+      213: -5420724670810055009
+    second: Lunar Satelite_25
+  - first:
+      213: -7956437262187310250
+    second: Lunar Satelite_26
+  - first:
+      213: -8146926753893826649
+    second: Lunar Satelite_27
+  - first:
+      213: -6037503142300487723
+    second: Lunar Satelite_28
+  - first:
+      213: 8392702571774241912
+    second: Lunar Satelite_29
+  - first:
+      213: 9168060960412373103
+    second: Lunar Satelite_30
+  - first:
+      213: -2094112921554466274
+    second: Lunar Satelite_31
+  - first:
+      213: -2184283118320864947
+    second: Lunar Satelite_32
+  - first:
+      213: 8683142279188064857
+    second: Lunar Satelite_33
+  - first:
+      213: 6556562263099731500
+    second: Lunar Satelite_34
+  - first:
+      213: -5244739369748216435
+    second: Lunar Satelite_35
+  - first:
+      213: 8717303221702312271
+    second: Lunar Satelite_36
+  - first:
+      213: -4705916738157126852
+    second: Lunar Satelite_37
+  - first:
+      213: 840683473129523625
+    second: Lunar Satelite_38
+  - first:
+      213: 400761167997223745
+    second: Lunar Satelite_39
+  - first:
+      213: -3712129446370896772
+    second: Lunar Satelite_40
+  - first:
+      213: -1642786997909176419
+    second: Lunar Satelite_41
+  - first:
+      213: -7131770248454521934
+    second: Lunar Satelite_42
+  - first:
+      213: 5006070656241830326
+    second: Lunar Satelite_43
+  - first:
+      213: 2734491139185730244
+    second: Lunar Satelite_44
+  - first:
+      213: 2045149357921489222
+    second: Lunar Satelite_45
+  - first:
+      213: 7508551909155743046
+    second: Lunar Satelite_46
+  - first:
+      213: 1465737483836829219
+    second: Lunar Satelite_47
+  - first:
+      213: -7256032095133528351
+    second: Lunar Satelite_48
+  - first:
+      213: -5685508603926985025
+    second: Lunar Satelite_49
+  - first:
+      213: -75074090165173861
+    second: Lunar Satelite_50
+  - first:
+      213: -8659339516839993006
+    second: Lunar Satelite_51
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lunar Satelite_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 443
+        width: 34
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4117647, y: 0.34615386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b9b934de5c38850800000000000000
+      internalID: 6378159120118946601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 443
+        width: 42
+        height: 52
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.34615386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29e3e951c2ee3b60800000000000000
+      internalID: 7727863330679023916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 443
+        width: 48
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4375, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab80c33ad238dc330800000000000000
+      internalID: 3732783898195396794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 444
+        width: 33
+        height: 52
+      alignment: 9
+      pivot: {x: 0.42424244, y: 0.34615386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a504043019d7d0530800000000000000
+      internalID: 3822849720485691482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 445
+        width: 81
+        height: 52
+      alignment: 9
+      pivot: {x: 0.45679012, y: 0.34615386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44e251bc27586860800000000000000
+      internalID: 7523359026987590734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 386
+        width: 81
+        height: 50
+      alignment: 9
+      pivot: {x: 0.45679012, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7431d1e52ccd37880800000000000000
+      internalID: -8614298934868896953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 386
+        width: 45
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.34615386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc50ee422ea8d7400800000000000000
+      internalID: 323567452127364557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 386
+        width: 36
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.34}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df960c7412e04a20800000000000000
+      internalID: 3044681925710487509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_8
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 386
+        width: 56
+        height: 52
+      alignment: 9
+      pivot: {x: 0.66071427, y: 0.34615386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914b5d896f2258960800000000000000
+      internalID: 7603521988406391833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_9
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 316
+        width: 34
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4117647, y: 0.34615386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a069f221cd3aac0800000000000000
+      internalID: -3844987686178387336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 313
+        width: 35
+        height: 65
+      alignment: 9
+      pivot: {x: 0.4, y: 0.35384616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68c43ade0d743fc0800000000000000
+      internalID: -3516047906325608339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 309
+        width: 23
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3775678a93ca453e0800000000000000
+      internalID: -2065836965416773773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_12
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 318
+        width: 7
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0229c690c47b1d920800000000000000
+      internalID: 3013391162891080224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_13
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 234
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75399480c5baac610800000000000000
+      internalID: 1642313425894347607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 236
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76104bdff85ffeb40800000000000000
+      internalID: 5471862071064002919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_15
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 239
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90f4b713ef190da0800000000000000
+      internalID: -5978211970141851494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_16
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 236
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9436e344ec1ac62a0800000000000000
+      internalID: -6742836634800200887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 160
+        width: 40
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4871795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b60b889b33cbfc0800000000000000
+      internalID: -3477847940281635974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_18
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 159
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab20361037f7e5140800000000000000
+      internalID: 4710342392197350074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 160
+        width: 38
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.4871795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd7ffbc490b4acf0800000000000000
+      internalID: -241874326846997031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 163
+        width: 35
+        height: 34
+      alignment: 9
+      pivot: {x: 0.51428574, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e416a67687bbbbd00800000000000000
+      internalID: 989590668943450446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_21
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 169
+        width: 25
+        height: 23
+      alignment: 9
+      pivot: {x: 0.48, y: 0.4347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa084a0837c011a0800000000000000
+      internalID: -6840748790471193946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_22
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 172
+        width: 15
+        height: 14
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0db833c5a05ab90800000000000000
+      internalID: -7231362235555393281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_23
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 175
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85635ad6c340a260800000000000000
+      internalID: 7106754733336126863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_24
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 169
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff3fbd5c4baa5990800000000000000
+      internalID: -7396411093523939329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_25
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 167
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e9b23d1a7b5c4b0800000000000000
+      internalID: -5420724670810055009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_26
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 333
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653d4ad077e059190800000000000000
+      internalID: -7956437262187310250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_27
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 298
+        width: 24
+        height: 32
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af3807184d40fe80800000000000000
+      internalID: -8146926753893826649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_28
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 261
+        width: 36
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfefd051ea763ca0800000000000000
+      internalID: -6037503142300487723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 127
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c6c18c58ed87470800000000000000
+      internalID: 8392702571774241912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_30
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 127
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6091887ede7b3f70800000000000000
+      internalID: 9168060960412373103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_31
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 127
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ac037946730f2e0800000000000000
+      internalID: -2094112921554466274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_32
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 127
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d413a93a31edfa1e0800000000000000
+      internalID: -2184283118320864947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 126
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a2e2dc5e7b08870800000000000000
+      internalID: 8683142279188064857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_34
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 229
+        width: 36
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26785713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e6acfd3a69dfa50800000000000000
+      internalID: 6556562263099731500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 232
+        width: 32
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85c6aeb451f637b0800000000000000
+      internalID: -5244739369748216435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_36
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 211
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f414fe808151af870800000000000000
+      internalID: 8717303221702312271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_37
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 225
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b549fd8a931beb0800000000000000
+      internalID: -4705916738157126852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_38
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 242
+        width: 38
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a94d682a25baab00800000000000000
+      internalID: 840683473129523625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_39
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 258
+        width: 44
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143ce32b82acf8500800000000000000
+      internalID: 400761167997223745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_40
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 281
+        width: 46
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: -0.2857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c749bccafeddb7cc0800000000000000
+      internalID: -3712129446370896772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_41
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 207
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f3ef3ede5a339e0800000000000000
+      internalID: -1642786997909176419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_42
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 243
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb3b29aebcd60d90800000000000000
+      internalID: -7131770248454521934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_43
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 243
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b90dc11db2297540800000000000000
+      internalID: 5006070656241830326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_44
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 212
+        width: 23
+        height: 13
+      alignment: 9
+      pivot: {x: 0.8695652, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c26e90043dd2f520800000000000000
+      internalID: 2734491139185730244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_45
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 212
+        width: 29
+        height: 13
+      alignment: 9
+      pivot: {x: 0.8965517, y: 0.46153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641578f5184d16c10800000000000000
+      internalID: 2045149357921489222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_46
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6452fcaed2cb33860800000000000000
+      internalID: 7508551909155743046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_47
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ea11ac978575410800000000000000
+      internalID: 1465737483836829219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_48
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee8bbae0456d4b90800000000000000
+      internalID: -7256032095133528351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_49
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 271
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6418f3c040911b0800000000000000
+      internalID: -5685508603926985025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_50
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 246
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b918ed3438845fef0800000000000000
+      internalID: -75074090165173861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lunar Satelite_51
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 246
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251ef3da698d3d780800000000000000
+      internalID: -8659339516839993006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
