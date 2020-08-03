@@ -1,0 +1,565 @@
+fileFormatVersion: 2
+guid: 10d4d47b382c0244eb8c6135c43daaae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2815997737723061439
+    second: RideArmorSheet_0
+  - first:
+      213: -6168219629533765217
+    second: RideArmorSheet_1
+  - first:
+      213: 9126258877147522598
+    second: RideArmorSheet_2
+  - first:
+      213: 2937435941600442943
+    second: RideArmorSheet_3
+  - first:
+      213: -3445363170122812582
+    second: RideArmorSheet_4
+  - first:
+      213: 5817443563752214051
+    second: RideArmorSheet_5
+  - first:
+      213: 4856712614592953033
+    second: RideArmorSheet_6
+  - first:
+      213: 2961392789148348335
+    second: RideArmorSheet_7
+  - first:
+      213: -3902869185166807354
+    second: RideArmorSheet_8
+  - first:
+      213: -7429313650139768866
+    second: RideArmorSheet_9
+  - first:
+      213: 8938257773498043957
+    second: RideArmorSheet_10
+  - first:
+      213: -2056737881723706313
+    second: RideArmorSheet_11
+  - first:
+      213: 1981415298613083411
+    second: RideArmorSheet_0
+  - first:
+      213: 6301384877994818560
+    second: RideArmorSheet_1
+  - first:
+      213: -4685467697725964104
+    second: RideArmorSheet_2
+  - first:
+      213: 6608735602668386674
+    second: RideArmorSheet_3
+  - first:
+      213: 889899755276609527
+    second: RideArmorSheet_4
+  - first:
+      213: 949380566718418564
+    second: RideArmorSheet_5
+  - first:
+      213: -4921362885739355348
+    second: RideArmorSheet_6
+  - first:
+      213: -482583536233165958
+    second: RideArmorSheet_7
+  - first:
+      213: -4902358833072234348
+    second: RideArmorSheet_8
+  - first:
+      213: 1472046107037949640
+    second: RideArmorSheet_9
+  - first:
+      213: -6366353029780743781
+    second: RideArmorSheet_10
+  - first:
+      213: -7374456462744531812
+    second: RideArmorSheet_11
+  - first:
+      213: 7914366432000992939
+    second: RideArmorSheet_12
+  - first:
+      213: 5234670268980780665
+    second: RideArmorSheet_13
+  - first:
+      213: 1632131300348896332
+    second: RideArmorSheet_14
+  - first:
+      213: 2030015252325254866
+    second: RideArmorSheet_15
+  - first:
+      213: -3246367458878111567
+    second: RideArmorSheet_16
+  - first:
+      213: 5919263961053927542
+    second: RideArmorSheet_12
+  - first:
+      213: -6647467285027676217
+    second: RideArmorSheet_13
+  - first:
+      213: 2051176834747962479
+    second: RideArmorSheet_14
+  - first:
+      213: -8646874322640160049
+    second: RideArmorSheet_15
+  - first:
+      213: -5506344534886181506
+    second: RideArmorSheet_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RideArmorSheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 526
+        width: 64
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d7b5257b66f7b10800000000000000
+      internalID: 1981415298613083411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 526
+        width: 42
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c36ed0924037750800000000000000
+      internalID: 6301384877994818560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 526
+        width: 55
+        height: 72
+      alignment: 9
+      pivot: {x: 0.47272727, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b00a7e14ffd9feb0800000000000000
+      internalID: -4685467697725964104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 451
+        width: 64
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279b68b1402f6bb50800000000000000
+      internalID: 6608735602668386674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_4
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 451
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.515625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f728fecc1f895c00800000000000000
+      internalID: 889899755276609527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 452
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e09eb6890ec2d00800000000000000
+      internalID: 949380566718418564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_6
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 451
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.578125, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23e6b8a78ec3bbb0800000000000000
+      internalID: -4921362885739355348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 377
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.59375, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bce54a4d48d49f0800000000000000
+      internalID: -482583536233165958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 377
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.578125, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4902b397d9257fbb0800000000000000
+      internalID: -4902358833072234348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 377
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.546875, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce5ef69222cd6410800000000000000
+      internalID: 1472046107037949640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_10
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 376
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.515625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99df2956ab26a7a0800000000000000
+      internalID: -6366353029780743781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 301
+        width: 64
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c478e2beaa8a990800000000000000
+      internalID: -7374456462744531812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 301
+        width: 64
+        height: 42
+      alignment: 9
+      pivot: {x: 0.734375, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67814620633752250800000000000000
+      internalID: 5919263961053927542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 301
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.734375, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf15eb59b37fb3a0800000000000000
+      internalID: -6647467285027676217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_14
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 301
+        width: 64
+        height: 66
+      alignment: 9
+      pivot: {x: 0.703125, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6499aea67e377c10800000000000000
+      internalID: 2051176834747962479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 224
+        width: 64
+        height: 68
+      alignment: 9
+      pivot: {x: 0.671875, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca369ddd91200880800000000000000
+      internalID: -8646874322640160049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideArmorSheet_16
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 224
+        width: 64
+        height: 70
+      alignment: 9
+      pivot: {x: 0.59375, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e751233c1d88593b0800000000000000
+      internalID: -5506344534886181506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.U2D;
 
 public class GameManager : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class GameManager : MonoBehaviour
     public bool fading;
     //Kill Player
     public GameObject deathFX;
-    public List<SpriteRenderer> spritePlayer;
+    public List<SpriteRenderer> spritePlayer, activeSprites;
     public Material colorMaterial, dissolveMaterial;
     Material colorRep, dissolveRep;
     public bool playerDead=false, spawnPlayer;
@@ -127,6 +128,29 @@ public class GameManager : MonoBehaviour
             }
         }
         
+    }
+    public void PlayerInvisible()
+    {
+        
+        foreach (SpriteRenderer sprite in spritePlayer)
+        {
+            if (sprite.enabled)
+            {
+                activeSprites.Add(sprite);
+            }
+        }
+        foreach (SpriteRenderer sprite in activeSprites)
+        {
+            sprite.enabled = false;
+        }
+
+    }
+    public void PlayerVisible()
+    {
+        foreach (SpriteRenderer sprite in activeSprites)
+        {
+            sprite.enabled = true;
+        }
     }
     public void FadeEnd()
     {

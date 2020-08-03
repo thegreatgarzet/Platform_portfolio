@@ -11,6 +11,7 @@ public class LunarSateliteControl : MonoBehaviour
     public bool teleportDone;
     public Vector2[] teleportPoints, meteorPoints;
 
+    AudioControl audioman;
 
     //Auto-work
     public float timer, timerB;
@@ -29,7 +30,7 @@ public class LunarSateliteControl : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-
+        audioman = FindObjectOfType<AudioControl>();
     }
     private void Update()
     {
@@ -114,6 +115,10 @@ public class LunarSateliteControl : MonoBehaviour
     public void EnableMeteors()
     {
         canMeteor = true;
+    }
+    public void TeleportSound()
+    {
+        audioman.PlaySound("teleportLunar");
     }
     public void ShotChasingStar()
     {
@@ -435,5 +440,6 @@ public class LunarSateliteControl : MonoBehaviour
     {
         move = false;
         galaxyLaser = false;
+        audioman.SoundStop("laserLunar");
     }
 }

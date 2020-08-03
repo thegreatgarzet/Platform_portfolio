@@ -20,6 +20,11 @@ public class LaserShot : MonoBehaviour
     bool startLaser = false;
 
     public bool started = true;
+    AudioControl audioman;
+    private void Awake()
+    {
+        audioman = FindObjectOfType<AudioControl>();
+    }
 
     private void Update()
     {
@@ -92,5 +97,7 @@ public class LaserShot : MonoBehaviour
     public void EnableLaserMove()
     {
         GetComponentInParent<LunarSateliteControl>().move = true;
+        audioman.PlaySound("laserLunar");
+
     }
 }

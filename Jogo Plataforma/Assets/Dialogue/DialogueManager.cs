@@ -34,6 +34,12 @@ public class DialogueManager : MonoBehaviour
     public bool talking;
 
     BossValuesControl bossValuesControl;
+
+    AudioControl audioman;
+    private void Awake()
+    {
+        audioman = FindObjectOfType<AudioControl>();
+    }
     void Start()
     {
         //zera a lista para não dar problema
@@ -79,6 +85,8 @@ public class DialogueManager : MonoBehaviour
     {
         //para todas as rotinas para evitar problema
         StopAllCoroutines();
+        audioman.SoundStop("talk1");
+        audioman.PlaySound("talk1");
         //se não tiver mais sentenças na lista, acaba a execução
         if (sentences.Count == 0)
         {
@@ -93,6 +101,7 @@ public class DialogueManager : MonoBehaviour
     }
     public void EndDialog()
     {
+        audioman.SoundStop("talk1");
         if (!triggerBoss)
         {
             isTyping = false;
@@ -139,8 +148,10 @@ public class DialogueManager : MonoBehaviour
     IEnumerator TypeSentence(string sentence)
     {
         //remove as duas primeiras letras(que são usadas pra verificar nome e rosto de quem está flando)
+        int count;
         string removeFromSentene = sentence.Remove(0, 2);
         sentence = removeFromSentene;
+        count = sentence.Length-1;
         textDialogueAmigo.text = "";
         textDialogueInimigo.text = "";
         if (intFace != 0)
@@ -148,6 +159,11 @@ public class DialogueManager : MonoBehaviour
             foreach (char letter in sentence.ToCharArray())
             {
                 textDialogueInimigo.text += letter;
+                count--;
+                if (count <= 0)
+                {
+                    audioman.SoundStop("talk1");
+                }
                 yield return null;
             }
         }
@@ -156,9 +172,15 @@ public class DialogueManager : MonoBehaviour
             foreach (char letter in sentence.ToCharArray())
             {
                 textDialogueAmigo.text += letter;
+                count--;
+                if (count <= 0)
+                {
+                    audioman.SoundStop("talk1");
+                }
                 yield return null;
             }
         }
+        
 
     }
 

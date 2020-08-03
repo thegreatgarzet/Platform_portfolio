@@ -81,10 +81,13 @@ public class MovementController : MonoBehaviour
     float moveDir;
     InputControl control;
 
+    AudioControl audioman;
+
     public int frames = 1;
     void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        audioman = FindObjectOfType<AudioControl>();
         giga = GameObject.Find("GigaAtack").GetComponent<Animator>();
         recoilControl = GetComponent<RecoilControl>();
         vida = GetComponent<ControleVida>();
@@ -341,6 +344,7 @@ public class MovementController : MonoBehaviour
                     {
                         Debug.Log("L1");
                         speed *= dashSpeed;
+                        audioman.PlaySound("dashsound");
                         state = 8;
                         return;
                     }
@@ -398,6 +402,7 @@ public class MovementController : MonoBehaviour
                     }
                     if (Input.GetButtonDown("L1") && dTimer > 0)
                     {
+                        audioman.PlaySound("dashsound");
                         state = 8;
                         return;
                     }
@@ -447,6 +452,7 @@ public class MovementController : MonoBehaviour
                     }
                     if (Input.GetButtonDown("L1") && dTimer >0)
                     {
+                        audioman.PlaySound("dashsound");
                         state = 8;
                         return;
                     }
@@ -543,7 +549,7 @@ public class MovementController : MonoBehaviour
                     if (Input.GetButtonDown("L1") && !dashing && dTimer > 0 && airdash && canDash && _DashGet)
                     {
                         dTimer = dTimerB;
-                        
+                        audioman.PlaySound("dashsound");
                         state = 8;
                         return;
                     }
@@ -697,6 +703,7 @@ public class MovementController : MonoBehaviour
                     }
                     if (Input.GetButtonDown("L1") && !dashing && canDash && dTimer > 0 && _DashGet)
                     {
+                        audioman.PlaySound("dashsound");
                         state = 8;
                         return;
                     }
@@ -1318,6 +1325,7 @@ public class MovementController : MonoBehaviour
             
                 if (canReceiveDamage)
                 {
+                    audioman.PlaySound("hurt");
                     wallJumping = false;
                     //timerWall = 0;
                     vida.ReceiveDamage(dano);
@@ -1347,6 +1355,22 @@ public class MovementController : MonoBehaviour
             switch (collision.transform.tag)
             {
                 case "inimigo":
+                    if (soundCrash)
+                    {
+                        collision.GetComponent<Inimigo_Basico_Hp_Control>().ReceiveDamage(controleArmas.soundCrashdmg);
+                    }
+                    else if (fireUppercut)
+                    {
+                        collision.GetComponent<Inimigo_Basico_Hp_Control>().ReceiveDamage(controleArmas.fireUppercutDmg);
+                    }
+                    if (canReceiveDamage && !controleArmas.shieldUp)
+                    {
+                        int danoAtualizado = ApplyDifficultyDamage(collision.GetComponent<Inimigo_Colider>().dano);
+
+                        PlayerApplyDamage(danoAtualizado);
+                    }
+                    break;
+                case "dmgobj":
                     if (soundCrash)
                     {
                         collision.GetComponent<Inimigo_Basico_Hp_Control>().ReceiveDamage(controleArmas.soundCrashdmg);
@@ -1450,6 +1474,7 @@ public class MovementController : MonoBehaviour
                 rideArmor = true;
                 collision.GetComponent<RideArmorMove>().player = gameObject;
                 collision.GetComponent<RideArmorMove>().onRide = true;
+                gameManager.PlayerInvisible();
                 break;
             case "instantkill":
                 vida.hp = 0;

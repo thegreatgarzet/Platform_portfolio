@@ -5,14 +5,28 @@ using UnityEngine;
 public class BossDeathTrigger : MonoBehaviour
 {
     GameManager gameManager;
+    AudioControl audioman;
     public float timer, timerB;
     public SpriteRenderer sprite;
     public GameObject explosion;
     public int count;
     public Vector2[] points;
+    public bool stopsounds;
+    public string[] sounds;
     private void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
+        audioman = FindObjectOfType<AudioControl>();
+    }
+    private void Start()
+    {
+        if (stopsounds)
+        {
+            foreach (string soundname in sounds)
+            {
+                audioman.SoundStop(soundname);
+            }
+        }
     }
     public void Update()
     {
@@ -30,9 +44,11 @@ public class BossDeathTrigger : MonoBehaviour
             position.x = transform.position.x + randX;
             position.y = transform.position.y + randY;
             Instantiate(explosion,position, Quaternion.identity);
+            audioman.PlaySound("explosion");
             count--;
             if(count < 0)
             {
+                audioman.SoundStop("explosion");
                 Destroy(gameObject, 0.15f);
                 gameManager.ExitBossRoom();
             }

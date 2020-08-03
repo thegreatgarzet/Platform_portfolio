@@ -24,19 +24,26 @@ public class ControleArmas : MonoBehaviour
     Vector2 pos, pos2;
     public int soundCrashdmg, fireUppercutDmg;
     public GameObject gachaBall;
-    private void Start()
+
+    AudioControl audioman;
+    private void Awake()
     {
+        audioman = FindObjectOfType<AudioControl>();
         idPosiçaoArma = 0;
         idArma = 0;
         idColor = 0;
-        timer = 0;;
+        timer = 0; ;
         _overHeatControl = GetComponentInParent<OverHeatControl>();
+    }
+    private void Start()
+    {
+        
     }
     private void Update()
     {
         idColor = idArmas[idPosiçaoArma];
       
-        if (movement.ispaused==false)
+        if (!movement.ispaused && !movement.rideArmor)
         {
             if (movement.isRight)
             {
@@ -100,6 +107,7 @@ public class ControleArmas : MonoBehaviour
                                         bullet.GetComponent<BulletScript>().dir = 1;
                                     }
                                     else { bullet.GetComponent<BulletScript>().dir = -1; }
+                                    audioman.PlaySound("charge1");
                                 }
                                 else
                                 {
@@ -169,6 +177,7 @@ public class ControleArmas : MonoBehaviour
                         {
                             GameObject fx = Instantiate(fxReady, chargeFX.transform.position, Quaternion.identity);
                             fx.transform.SetParent(chargeFX.transform.parent);
+                            audioman.PlaySound("chargedone");
                             canUseFx = false;
                         }
                     }
@@ -179,6 +188,7 @@ public class ControleArmas : MonoBehaviour
                         {
                             GameObject fx = Instantiate(fxReady2, chargeFX.transform.position, Quaternion.identity);
                             fx.transform.SetParent(chargeFX.transform.parent);
+                            audioman.PlaySound("chargedone");
                             canUseFx2 = false;
                         }
                         if (!_SwordSlash)
@@ -213,6 +223,7 @@ public class ControleArmas : MonoBehaviour
                         {
                             GameObject fx = Instantiate(fxReady2, chargeFX.transform.position, Quaternion.identity);
                             fx.transform.SetParent(chargeFX.transform.parent);
+                            audioman.PlaySound("chargedone");
                             canUseFx2 = false;
                         }
                         if (!_SwordSlash)
@@ -238,6 +249,7 @@ public class ControleArmas : MonoBehaviour
                         {
                             GameObject fx = Instantiate(fxReady3, chargeFX.transform.position, Quaternion.identity);
                             fx.transform.SetParent(chargeFX.transform.parent);
+                            audioman.PlaySound("chargedone");
                             canUseFx3 = false;
                         }
                         if (idArma == 1)
@@ -258,20 +270,39 @@ public class ControleArmas : MonoBehaviour
                 canUseFx = true;
                 canUseFx2 = true;
                 canUseFx3 = true;
-                if (hipershot)
+                if (hipershot)//ChargeShot 3
                 {
                     //Instantiate(fxReady, pontoTiro.transform);
                     if (!canCharge)
                     {
                         if (idArma == 0)
                         {
-                            GameObject bulletHiper = Instantiate(hiper[0], transform.position, Quaternion.identity);
-                            
-                            if (movement.isRight)
+                            if (timer > 1 && timer <= timerCharge2)//Charge shot 2
                             {
-                                bulletHiper.GetComponent<BulletScript>().dir = 1;
+                                switch (idArma)
+                                {
+                                    case 0:
+                                        print("tiro2");
+                                        GameObject bulletMedium = Instantiate(medium[idArma], transform.position, Quaternion.identity);
+                                        if (movement.isRight)
+                                        {
+                                            bulletMedium.GetComponent<BulletScript>().dir = 1;
+                                        }
+                                        else { bulletMedium.GetComponent<BulletScript>().dir = -1; }
+                                        audioman.PlaySound("charge2");
+                                        break;
+                                }
+                            }else if(timer >= timerCharge3)
+                            {
+                                GameObject bulletHiper = Instantiate(hiper[0], transform.position, Quaternion.identity);
+                                if (movement.isRight)
+                                {
+                                    bulletHiper.GetComponent<BulletScript>().dir = 1;
+                                }
+                                else { bulletHiper.GetComponent<BulletScript>().dir = -1; }
+                                audioman.PlaySound("charge3");
                             }
-                            else { bulletHiper.GetComponent<BulletScript>().dir = -1; }
+                            
                         }
                     }
                     else
@@ -279,14 +310,33 @@ public class ControleArmas : MonoBehaviour
                         switch (idArma)
                         {
                             case 0:
-                                GameObject bulletHiper = Instantiate(hiper[idArma], transform.position, Quaternion.identity);
-                                if (plasmaBuster) { bulletHiper.GetComponent<BulletScript>().isHyper = true; }
-                                if (movement.isRight)
+                                if (timer > 1 && timer <= timerCharge2)//Charge shot 2
                                 {
-                                    bulletHiper.GetComponent<BulletScript>().dir = 1;
+                                   
+                                    print("tiro2");
+                                    GameObject bulletMedium = Instantiate(medium[idArma], transform.position, Quaternion.identity);
+                                    if (movement.isRight)
+                                    {
+                                        bulletMedium.GetComponent<BulletScript>().dir = 1;
+                                    }
+                                    else { bulletMedium.GetComponent<BulletScript>().dir = -1; }
+                                    audioman.PlaySound("charge2");
+                                    break;
+                                    
                                 }
-                                else { bulletHiper.GetComponent<BulletScript>().dir = -1; }
+                                else if (timer >= timerCharge2)
+                                {
+                                    GameObject bulletHiper = Instantiate(hiper[idArma], transform.position, Quaternion.identity);
+                                    if (plasmaBuster) { bulletHiper.GetComponent<BulletScript>().isHyper = true; }
+                                    if (movement.isRight)
+                                    {
+                                        bulletHiper.GetComponent<BulletScript>().dir = 1;
+                                    }
+                                    else { bulletHiper.GetComponent<BulletScript>().dir = -1; }
+                                    audioman.PlaySound("charge3");
+                                }
 
+                                
                                 break;
                             case 1:
                                 //Instantiate(hiper[idArma], transform.position, Quaternion.identity);
@@ -337,17 +387,19 @@ public class ControleArmas : MonoBehaviour
                     }
 
                 }
-                else if(timer >1  && timer <= timerCharge2)
+                else if(timer >1  && timer <= timerCharge2)//Charge shot 2
                 {
                     switch (idArma)
                     {
                         case 0:
+                            print("tiro2");
                             GameObject bulletMedium = Instantiate(medium[idArma], transform.position, Quaternion.identity);
                             if (movement.isRight)
                             {
                                 bulletMedium.GetComponent<BulletScript>().dir = 1;
                             }
                             else { bulletMedium.GetComponent<BulletScript>().dir = -1; }
+                            audioman.PlaySound("charge2");
                             break;
                     }
                 }

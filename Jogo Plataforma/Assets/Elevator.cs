@@ -14,6 +14,11 @@ public class Elevator : MonoBehaviour
     public bool playerOnTop, move, canDetectInput;
     public LayerMask layer;
     public MovementController movement;
+    AudioControl audioman;
+    private void Awake()
+    {
+        audioman = FindObjectOfType<AudioControl>();
+    }
     private void Start()
     {
         movement = FindObjectOfType<MovementController>();
@@ -82,7 +87,7 @@ public class Elevator : MonoBehaviour
         movement.transform.SetParent(gameObject.transform);
         movement.rb.velocity = Vector2.right * 0;
         movement.rb.isKinematic = true;
-
+        audioman.PlaySound("elevator");
     }
     public void MoveTo(int moveto)
     {
@@ -101,6 +106,8 @@ public class Elevator : MonoBehaviour
             movement.ispaused = false;
             movement.transform.SetParent(null);
             movement.rb.isKinematic = false;
+            audioman.SoundStop("elevator");
+            audioman.PlaySound("elevatorshutdown");
         }
     }
 }

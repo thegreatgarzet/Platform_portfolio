@@ -23,6 +23,7 @@ TagManager:
   - inimigoBullet
   - checkpoint
   - instantkill
+  - dmgobj
   layers:
   - Default
   - TransparentFX
