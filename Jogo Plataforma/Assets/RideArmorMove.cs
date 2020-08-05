@@ -108,7 +108,10 @@ public class RideArmorMove : MonoBehaviour
             
             
     }
-    
+    public void PlayWalkSound()
+    {
+        audioman.PlaySound("ridewalk");
+    }
     public void EnableMovement()
     {
         enableMovement = true;
@@ -156,6 +159,7 @@ public class RideArmorMove : MonoBehaviour
     }
     public void EjectPlayer()
     {
+        anim.SetTrigger("playerExit");
         box.enabled = false;
         player.transform.SetParent(null);
         player.GetComponent<MovementController>().rideArmor = false;

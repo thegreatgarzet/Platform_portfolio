@@ -12,10 +12,12 @@ public class ArmorPedestal : MonoBehaviour
     public bool used;
     public float rayDist;
     Animator anim;
+    AudioControl audioman;
     private void Start()
     {
         player = GameObject.Find("MainChar").GetComponent<MovementController>();
         armor = GameObject.Find("MainChar").GetComponent<ArmorControl>();
+        audioman = FindObjectOfType<AudioControl>();
         anim = GetComponent<Animator>();
     }
     private void Update()
@@ -40,5 +42,8 @@ public class ArmorPedestal : MonoBehaviour
         
         player.ispaused = false;
     }
-    
+    public void PlaySoundfx()
+    {
+        audioman.PlaySound("upgrade");
+    }   
 }

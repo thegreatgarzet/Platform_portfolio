@@ -7,6 +7,7 @@ public class bossDoor : MonoBehaviour
     public Transform[] movePoints;
     GameObject playerTransf;
     GameManager gameManager;
+    AudioControl audioman;
     public DialogueTrigger trigger;
     public Animator anim;
     public BoxCollider2D box, triggerBox;
@@ -20,6 +21,7 @@ public class bossDoor : MonoBehaviour
         playerTransf = GameObject.Find("MainChar");
         trigger = GetComponent<DialogueTrigger>();
         gameManager = FindObjectOfType<GameManager>();
+        audioman = FindObjectOfType<AudioControl>();
     }
     private void Update()
     {
@@ -70,7 +72,7 @@ public class bossDoor : MonoBehaviour
                 moveRight = true;
             }
             anim.SetInteger("state", 1);
-            
+            audioman.PlaySound("dooropen");
             playerTransf.GetComponent<MovementController>().ispaused = true;
             playerTransf.GetComponent<MovementController>().dashing = false;
             playerTransf.GetComponent<MovementController>().state=2;

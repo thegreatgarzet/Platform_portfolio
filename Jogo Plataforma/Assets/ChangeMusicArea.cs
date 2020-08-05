@@ -15,7 +15,7 @@ public class ChangeMusicArea : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && areaName.text.text != namearea)
+        if (collision.CompareTag("Player") && areaName.text.text != namearea || collision.CompareTag("RideArmor") && areaName.text.text != namearea)
         {
             areaName.text.text = namearea;
             areaName.anim.SetTrigger("changearea");
@@ -24,6 +24,11 @@ public class ChangeMusicArea : MonoBehaviour
                 musicControl.nextmusic = music;
                 musicControl.switchmusic = true;
             }
+        }
+        if (collision.CompareTag("Player") && musicControl.actualmusic != music || collision.CompareTag("RideArmor") && musicControl.actualmusic != music)
+        {
+            musicControl.nextmusic = music;
+            musicControl.switchmusic = true;
         }
         
     }

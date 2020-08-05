@@ -719,11 +719,13 @@ public class MovementController : MonoBehaviour
                         {
                             if (Input.GetButtonDown("Atirar"))
                             {
+                                audioman.PlaySound("landing");
                                 state = 5;
                                 return;
                             }
                             else
                             {
+                                audioman.PlaySound("landing");
                                 state = 4;
                                 return;
                             }
@@ -731,12 +733,14 @@ public class MovementController : MonoBehaviour
                         else
                         if (Input.GetButtonDown("Horizontal"))
                         {
+                            audioman.PlaySound("landing");
                             state = 2;
                             pressedJump = true;
                             return;
                         }
                         else
                         {
+                            audioman.PlaySound("landing");
                             jumps = 1;
                             state = 0;
                             return;
