@@ -95,6 +95,11 @@ public class RideArmorMove : MonoBehaviour
                     anim.SetInteger("state", 2);
                 }
             }
+           
+        }
+        else
+        {
+            rb.velocity = new Vector2(0.0f, rb.velocity.y);
             if (box.enabled == false)
             {
                 timer -= Time.deltaTime;
