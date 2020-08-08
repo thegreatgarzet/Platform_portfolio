@@ -171,6 +171,7 @@ public class RideArmorMove : MonoBehaviour
         player.GetComponent<Rigidbody2D>().simulated = true;
         player.GetComponent<Rigidbody2D>().AddForce(Vector2.up * player.GetComponent<MovementController>().jumpforce * 2, ForceMode2D.Impulse);
         gameManager.PlayerVisible();
+        gameManager.EnablePlayerHP();
         enableMovement = false;
         onRide = false;
     }

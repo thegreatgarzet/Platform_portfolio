@@ -1479,6 +1479,7 @@ public class MovementController : MonoBehaviour
                 collision.GetComponent<RideArmorMove>().player = gameObject;
                 collision.GetComponent<RideArmorMove>().onRide = true;
                 gameManager.PlayerInvisible();
+                gameManager.EnableRideHP();
                 break;
             case "instantkill":
                 vida.hp = 0;

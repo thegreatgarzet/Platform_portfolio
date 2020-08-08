@@ -69,7 +69,8 @@ public class Inimigo_Basico_Hp_Control : MonoBehaviour
         if (vida<=0)
         {
             Instantiate(explosion, new Vector2(transform.position.x, transform.position.y + 0.5f), Quaternion.identity);
-            basicFunctions.AutoDestruirObj(0);
+            //basicFunctions.AutoDestruirObj(0);
+            Destroy(gameObject);
         }
         if (boss)
         {

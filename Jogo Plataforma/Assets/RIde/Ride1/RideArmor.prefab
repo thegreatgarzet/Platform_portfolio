@@ -486,6 +486,7 @@ MonoBehaviour:
   hp: 15
   invencibleBlink: {fileID: 0}
   ridearmor: {fileID: 0}
+  hpSlider: {fileID: 0}
 --- !u!1 &4570670200604237463
 GameObject:
   m_ObjectHideFlags: 0

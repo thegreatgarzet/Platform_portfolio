@@ -1,18 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RideArmorHPControl : MonoBehaviour
 {
     public int hp;
     public InvencibleBlink invencibleBlink;
     public RideArmorMove ridearmor;
+    public Slider hpSlider;
     GameManager gameManager;
     private void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
         ridearmor = GetComponent<RideArmorMove>();
         invencibleBlink = GetComponent<InvencibleBlink>();
+        //hpSlider = GameObject.Find("HP_Ride_Slider").GetComponent<Slider>();
+    }
+    private void Update()
+    {
+        if (ridearmor.onRide)
+        {
+            hpSlider.value = hp;
+        }
     }
     private void OnTriggerStay2D(Collider2D collision)
     {

@@ -30,7 +30,7 @@ TextureImporter:
       213: -2938130407713926383
     second: UI_Bars_8
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -50,6 +50,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -84,6 +85,8 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -140,9 +143,9 @@ TextureImporter:
       name: UI_Bars_0
       rect:
         serializedVersion: 2
-        x: 15
+        x: 9
         y: 70
-        width: 50
+        width: 68
         height: 14
       alignment: 4
       pivot: {x: 0, y: 0.5}
@@ -161,9 +164,9 @@ TextureImporter:
       name: UI_Bars_1
       rect:
         serializedVersion: 2
-        x: 15
+        x: 9
         y: 41
-        width: 60
+        width: 68
         height: 14
       alignment: 4
       pivot: {x: 0, y: 0.5}
@@ -203,9 +206,9 @@ TextureImporter:
       name: UI_Bars_3
       rect:
         serializedVersion: 2
-        x: 15
+        x: 9
         y: 14
-        width: 70
+        width: 68
         height: 14
       alignment: 4
       pivot: {x: 0, y: 0.5}

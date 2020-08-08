@@ -37,6 +37,8 @@ public class GameManager : MonoBehaviour
     public int dificulty=0;
     //
     BossValuesControl bossValuesControl;
+    //Hp Stuff
+    public GameObject objectHpPlayer, objectHpRide;
     private void Awake()
     {
         player = GameObject.Find("MainChar");
@@ -128,6 +130,20 @@ public class GameManager : MonoBehaviour
             }
         }
         
+    }
+    public void EnablePlayerHP()
+    {
+        objectHpRide.SetActive(false);
+        objectHpPlayer.SetActive(true);
+    }
+    public void DisablePlayerHP()
+    {
+        objectHpPlayer.SetActive(false);
+    }
+    public void EnableRideHP()
+    {
+        DisablePlayerHP();
+        objectHpRide.SetActive(true);
     }
     public void PlayerInvisible()
     {
