@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class WallerEye : MonoBehaviour
 {
+    public GameObject bulletPrefab;
     public void Shot()
     {
-        //Shot blablabla
+        EnemyBullet bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity).GetComponent<EnemyBullet>();
+        bullet.rb.velocity = Vector2.right * bullet.speed;
     }
 }

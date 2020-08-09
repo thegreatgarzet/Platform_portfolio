@@ -8,10 +8,13 @@ public class Waller_Controll : MonoBehaviour
 {
     public List<Animator> anims;
     public GameObject[] eyes;
+    Animator anim;
     public int counter;
     public float timer, timerB;
+    public bool start;
     private void Awake()
     {
+        anim = GetComponent<Animator>();
         timer = timerB;
         foreach (GameObject eye in eyes)
         {
@@ -20,44 +23,57 @@ public class Waller_Controll : MonoBehaviour
     }
     private void Update()
     {
-        if(eyes[0] == null && eyes[1] == null && eyes[2] == null)
+        if (start)
         {
-            Destroy(gameObject);
-        }
-        timer -= Time.deltaTime;
-        if(timer <= 0)
-        {
-            if (counter >= 0)
+            if (eyes[0] == null && eyes[1] == null && eyes[2] == null)
             {
-                if(anims[counter] == null)
-                {
-                    counter--;
-                    timer = 0.0f;
-                }
-                else
-                {
-                    anims[counter].SetTrigger("shot");
-                    counter--;
-                    timer = timerB;
-                }
-                
+                anim.SetTrigger("dead");
+                //Destroy(gameObject, 0.1f);
             }
             else
             {
-                int rand = Random.Range(0, 2);
-                if (rand == 0)
+                timer -= Time.deltaTime;
+                if (timer <= 0)
                 {
-                    MultiShot(0,2);
+                    if (counter >= 0)
+                    {
+                        if (anims[counter] == null)
+                        {
+                            counter--;
+                            timer = 0.0f;
+                        }
+                        else
+                        {
+                            anims[counter].SetTrigger("shot");
+                            counter--;
+                            timer = timerB;
+                        }
+
+                    }
+                    else
+                    {
+                        int rand = Random.Range(0, 2);
+                        if (rand == 0)
+                        {
+                            MultiShot(0, 2);
+                        }
+                        else
+                        {
+                            MultiShot(2, 1);
+                        }
+                        counter = 2;
+
+                    }
+
                 }
-                else
-                {
-                    MultiShot(2, 1);
-                }
-                counter = 2;
-                
             }
             
         }
+        
+    }
+    public void StartBoss()
+    {
+        start = true;
     }
     public void MultiShot(int eye1, int eye2)
     {

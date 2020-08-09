@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Cinemachine;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
     public Transform safeRoomDoor, lastUsedDoor;
     public bool isOnSafeRoom = false, canCutscene=true, canCallSaveMenu=false, onSave=false, onMenu=false, onTyping, canCallMenu=true;
     //
+    public CinemachineVirtualCamera cinemachineBrain;
     //CheckPoint
     public Transform checkPoint;
     //
@@ -131,6 +133,13 @@ public class GameManager : MonoBehaviour
         }
         
     }
+    public void PausePlayer()
+    {
+        player.GetComponent<MovementController>().ispaused = true;
+        player.GetComponent<Rigidbody2D>().velocity = new Vector2(0.0f, player.GetComponent<Rigidbody2D>().velocity.y);
+        controleArmas.canshot = false;
+        canCallMenu = false;
+    }
     public void EnablePlayerHP()
     {
         objectHpRide.SetActive(false);
@@ -175,8 +184,8 @@ public class GameManager : MonoBehaviour
     public void EnterBossRoom(int bossNum)
     {
         bossWall.SetActive(true);
-        cameraBoss[bossNum].SetActive(true);
-        cameraMain.SetActive(false);
+        //cameraBoss[bossNum].SetActive(true);
+        //cameraMain.SetActive(false);
         tileMapWall.SetActive(true);
         actualBoss = bossNum;
         bossValuesControl.gameObject.SetActive(true);
@@ -185,6 +194,21 @@ public class GameManager : MonoBehaviour
         {
             Invoke("IntroBoss", 1f);
         }
+    }
+    public void ChangeCameraToBoss(PolygonCollider2D collider)
+    {
+        cameraBoss[0].GetComponent<CinemachineConfiner>().m_BoundingShape2D = collider;
+        cameraBoss[0].SetActive(true);
+        cameraBoss[0].GetComponent<CinemachineVirtualCamera>().m_Follow = null;
+        cameraMain.SetActive(false);
+        bossWall.SetActive(true);
+    }
+    public void ChangeCameraToPlayer()
+    {
+        cameraMain.SetActive(true);
+        cinemachineBrain.m_Follow = player.transform;
+        cameraBoss[0].SetActive(false);
+        bossWall.SetActive(false);
     }
     public void IntroBoss()
     {
