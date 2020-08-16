@@ -12,13 +12,14 @@ GameObject:
   - component: {fileID: 3373019535628349532}
   - component: {fileID: 3373019535628349534}
   - component: {fileID: 3373019535628349531}
+  - component: {fileID: 1499202534}
   m_Layer: 0
   m_Name: BossTrigger
   m_TagString: bossDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3373019535628349533
 Transform:
   m_ObjectHideFlags: 0
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3373019535628349530}
-  m_LocalRotation: {x: -0, y: 0.008727774, z: -0, w: 0.9999619}
+  m_LocalRotation: {x: 0, y: 0.008726558, z: 0, w: 0.999962}
   m_LocalPosition: {x: 7.12, y: -0.71, z: -73.85672}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -75,6 +76,7 @@ MonoBehaviour:
   timer: 1
   startBossFight: 0
   callNewCam: 1
+  colliderBoss: {fileID: 0}
 --- !u!114 &3373019535628349531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,7 +91,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - 00O Teste teste, teste teste?
-    - 11A? X? T? 9?
-    - 00Medicos, enfermeiros, pais, enfermeiros...
+    - 00Boss #1 test
   boss: 1
+  gameManager: {fileID: 0}
+--- !u!114 &1499202534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3373019535628349530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f89866968ea6d24ab56dab5bd333d13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camerafollow: {fileID: 0}
+  newpos: {x: 0, y: 0}
+  gameManager: {fileID: 0}
+  cancolide: 1
+  colliderobj: {fileID: 0}

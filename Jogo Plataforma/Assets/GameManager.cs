@@ -181,12 +181,13 @@ public class GameManager : MonoBehaviour
     {
         fading = false;
     }
-    public void EnterBossRoom(int bossNum)
+    public void EnterBossRoom(int bossNum, PolygonCollider2D collider)
     {
-        bossWall.SetActive(true);
+        //bossWall.SetActive(true);
         //cameraBoss[bossNum].SetActive(true);
         //cameraMain.SetActive(false);
-        tileMapWall.SetActive(true);
+        //ChangeCameraToBoss(collider);
+        //tileMapWall.SetActive(true);
         actualBoss = bossNum;
         bossValuesControl.gameObject.SetActive(true);
         bossValuesControl.startBossFight = true;
@@ -197,6 +198,7 @@ public class GameManager : MonoBehaviour
     }
     public void ChangeCameraToBoss(PolygonCollider2D collider)
     {
+        //cinemachineBrain.m_Follow = null;
         cameraBoss[0].GetComponent<CinemachineConfiner>().m_BoundingShape2D = collider;
         cameraBoss[0].SetActive(true);
         cameraBoss[0].GetComponent<CinemachineVirtualCamera>().m_Follow = null;
@@ -216,13 +218,19 @@ public class GameManager : MonoBehaviour
     }
     public void ExitBossRoom()
     {
-        bossWall.SetActive(false);
+        /*bossWall.SetActive(false);
         cameraMain.SetActive(true);
         foreach (GameObject camera in cameraBoss)
         {
             camera.SetActive(false);
         }
-        
+        cinemachineBrain.m_Follow = player.transform;
+        cameraBoss[0].SetActive(false);
+        bossWall.SetActive(false);*/
+        cameraMain.SetActive(true);
+        cinemachineBrain.m_Follow = player.transform;
+        cameraBoss[0].SetActive(false);
+        bossWall.SetActive(false);
     }
     public void CameraInSafe(bool inSafe)
     {

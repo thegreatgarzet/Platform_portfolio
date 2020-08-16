@@ -1,0 +1,1018 @@
+fileFormatVersion: 2
+guid: 1e316cfe708dd2241a47d3a497b7f709
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7897861889781170840
+    second: 17
+  - first:
+      213: 8252200191323821042
+    second: 18
+  - first:
+      213: 5691728171128040638
+    second: 19
+  - first:
+      213: -6597500436887222981
+    second: 20
+  - first:
+      213: 4778865444340450989
+    second: 21
+  - first:
+      213: -9135505902137777734
+    second: 22
+  - first:
+      213: 4658760625651064567
+    second: 23
+  - first:
+      213: -9211964052781316398
+    second: 24
+  - first:
+      213: 2131577045314023446
+    second: 25
+  - first:
+      213: 2759181639178094256
+    second: 26
+  - first:
+      213: 4095767659808536514
+    second: 27
+  - first:
+      213: 3651790072202050232
+    second: 28
+  - first:
+      213: 5684277800254487538
+    second: 29
+  - first:
+      213: 2553804283571176418
+    second: 01
+  - first:
+      213: -2382792343873301191
+    second: 02
+  - first:
+      213: -4246263090741530252
+    second: ShuttleDoor_15
+  - first:
+      213: 6172342918547927123
+    second: 03
+  - first:
+      213: -3152453791738007770
+    second: 04
+  - first:
+      213: 8790610295704985204
+    second: 05
+  - first:
+      213: 6137651983109447258
+    second: 06
+  - first:
+      213: -8720323456480208378
+    second: 07
+  - first:
+      213: -6419878484355250109
+    second: 08
+  - first:
+      213: 7758292621716867791
+    second: 09
+  - first:
+      213: 4018455639285521461
+    second: 10
+  - first:
+      213: -4387700764803343260
+    second: 11
+  - first:
+      213: -4103827030804676948
+    second: ShuttleDoor_25
+  - first:
+      213: -3072557676534091740
+    second: 12
+  - first:
+      213: -145740318482398475
+    second: 13
+  - first:
+      213: -8118104771784547855
+    second: 14
+  - first:
+      213: 3430432892559596357
+    second: 15
+  - first:
+      213: -6757847128151655311
+    second: 16
+  - first:
+      213: -2173169870767974797
+    second: ShuttleDoor_0
+  - first:
+      213: 7367314274278556771
+    second: ShuttleDoor_1
+  - first:
+      213: 7240649959330708050
+    second: ShuttleDoor_2
+  - first:
+      213: -8736130557628472896
+    second: ShuttleDoor_3
+  - first:
+      213: -3165696172389345758
+    second: ShuttleDoor_4
+  - first:
+      213: -7752067947880792333
+    second: ShuttleDoor_5
+  - first:
+      213: -4007456378770016808
+    second: ShuttleDoor_6
+  - first:
+      213: 1627809802943757916
+    second: ShuttleDoor_7
+  - first:
+      213: -1251162588963899105
+    second: ShuttleDoor_8
+  - first:
+      213: -319411376674334544
+    second: ShuttleDoor_9
+  - first:
+      213: -4963896027933675630
+    second: ShuttleDoor_10
+  - first:
+      213: 7749314421385342286
+    second: ShuttleDoor_11
+  - first:
+      213: 2582111795719488082
+    second: ShuttleDoor_12
+  - first:
+      213: -3058932621109265191
+    second: ShuttleDoor_13
+  - first:
+      213: -5565417245088541775
+    second: ShuttleDoor_14
+  - first:
+      213: -7511618335622349190
+    second: ShuttleDoor_15
+  - first:
+      213: 4250919998992848710
+    second: ShuttleDoor_16
+  - first:
+      213: 6597167553989655616
+    second: ShuttleDoor_17
+  - first:
+      213: 6259526197105784474
+    second: ShuttleDoor_18
+  - first:
+      213: -3302765894700635659
+    second: ShuttleDoor_19
+  - first:
+      213: -1093272654770121964
+    second: ShuttleDoor_20
+  - first:
+      213: -8613160544894285256
+    second: ShuttleDoor_21
+  - first:
+      213: 7196732518552169058
+    second: ShuttleDoor_22
+  - first:
+      213: -5233966061686636174
+    second: ShuttleDoor_23
+  - first:
+      213: 3964362400483242959
+    second: ShuttleDoor_24
+  - first:
+      213: 2341213259357291178
+    second: ShuttleDoor_25
+  - first:
+      213: 4213355004050335353
+    second: ShuttleDoor_26
+  - first:
+      213: 7489821633753158571
+    second: ShuttleDoor_27
+  - first:
+      213: -5755929690212683046
+    second: ShuttleDoor_28
+  - first:
+      213: -5660918086799849422
+    second: ShuttleDoor_29
+  - first:
+      213: -3906717967202699325
+    second: ShuttleDoor_30
+  - first:
+      213: 843088330235500984
+    second: ShuttleDoor_31
+  - first:
+      213: -2021420296415073370
+    second: ShuttleDoor_32
+  - first:
+      213: -813301407771267011
+    second: ShuttleDoor_33
+  - first:
+      213: -8594753134095763349
+    second: ShuttleDoor_34
+  - first:
+      213: -7812395530764607903
+    second: ShuttleDoor_35
+  - first:
+      213: 3605225730773172000
+    second: ShuttleDoor_36
+  - first:
+      213: -3866755175288770463
+    second: ShuttleDoor_37
+  - first:
+      213: 6679372684539518815
+    second: ShuttleDoor_38
+  - first:
+      213: -226885479599173502
+    second: ShuttleDoor_39
+  - first:
+      213: 167447217516454153
+    second: ShuttleDoor_40
+  - first:
+      213: -7398128818820638409
+    second: ShuttleDoor_41
+  - first:
+      213: 6985126247728411826
+    second: ShuttleDoor_42
+  - first:
+      213: 1102202969341282005
+    second: ShuttleDoor_43
+  - first:
+      213: 4668062904683878260
+    second: ShuttleDoor_44
+  - first:
+      213: 44864995709831153
+    second: ShuttleDoor_45
+  - first:
+      213: 3592363508560279728
+    second: ShuttleDoor_46
+  - first:
+      213: -3680920295312911559
+    second: ShuttleDoor_47
+  - first:
+      213: -3580962166566483921
+    second: ShuttleDoor_48
+  - first:
+      213: 6933154073481173183
+    second: ShuttleDoor_49
+  - first:
+      213: -3235189401970215630
+    second: ShuttleDoor_50
+  - first:
+      213: 4755785104344730376
+    second: ShuttleDoor_51
+  - first:
+      213: -5798296235623604584
+    second: ShuttleDoor_52
+  - first:
+      213: 6764426952964741998
+    second: ShuttleDoor_53
+  - first:
+      213: -1459018531819917041
+    second: ShuttleDoor_54
+  - first:
+      213: -6647890045344251837
+    second: ShuttleDoor_55
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShuttleDoor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 30
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3761b48348957d1e0800000000000000
+      internalID: -2173169870767974797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 30
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364c90b7c45fd3660800000000000000
+      internalID: 7367314274278556771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 30
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a7ad086c4fb7460800000000000000
+      internalID: 7240649959330708050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 30
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1ae193b8703c680800000000000000
+      internalID: -8736130557628472896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 30
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2265be19a103114d0800000000000000
+      internalID: -3165696172389345758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 30
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3febfdb064f1b6490800000000000000
+      internalID: -7752067947880792333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 30
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d53a8ae7a7a268c0800000000000000
+      internalID: -4007456378770016808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 30
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e7c5a2464279610800000000000000
+      internalID: 1627809802943757916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 30
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f197c88114af2aee0800000000000000
+      internalID: -1251162588963899105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 30
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b89b149b09319bf0800000000000000
+      internalID: -319411376674334544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 30
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f6a09ccd2bc1bb0800000000000000
+      internalID: -4963896027933675630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 30
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d2c7b98681b8b60800000000000000
+      internalID: 7749314421385342286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 30
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252c4326ff085d320800000000000000
+      internalID: 2582111795719488082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 30
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc7deeecfc7c85d0800000000000000
+      internalID: -3058932621109265191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 30
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b31aaf908aa3c2b0800000000000000
+      internalID: -5565417245088541775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 30
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e3be80cee51c790800000000000000
+      internalID: -7511618335622349190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 30
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647929c773d4efa30800000000000000
+      internalID: 4250919998992848710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_17
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 30
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c3943efe8dd8b50800000000000000
+      internalID: 6597167553989655616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_18
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 30
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96fdb079ed4ed650800000000000000
+      internalID: 6259526197105784474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_19
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 30
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9e716eae73a22d0800000000000000
+      internalID: -3302765894700635659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_20
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 30
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41357c9105ae3d0f0800000000000000
+      internalID: -1093272654770121964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_21
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 30
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a8a207e18e77880800000000000000
+      internalID: -8613160544894285256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_22
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 30
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aedcf781eefd360800000000000000
+      internalID: 7196732518552169058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_23
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 0
+        width: 30
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271c7bef8973d57b0800000000000000
+      internalID: -5233966061686636174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_24
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 30
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3f7b1699e340730800000000000000
+      internalID: 3964362400483242959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_25
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 30
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa20d6b1e09ad7020800000000000000
+      internalID: 2341213259357291178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_26
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 30
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976e8098d08d87a30800000000000000
+      internalID: 4213355004050335353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_27
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 30
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba394e6d71131f760800000000000000
+      internalID: 7489821633753158571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_28
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 30
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2bfb66174de10b0800000000000000
+      internalID: -5755929690212683046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_29
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 0
+        width: 30
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23806bd2ef06071b0800000000000000
+      internalID: -5660918086799849422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShuttleDoor_30
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 30
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c73f3f15bc88c9c0800000000000000
+      internalID: -3906717967202699325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

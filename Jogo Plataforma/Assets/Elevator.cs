@@ -48,7 +48,7 @@ public class Elevator : MonoBehaviour
                 else if (Input.GetAxisRaw("Vertical") < 0)
                 {
                     
-                    if (actualStop >=0)
+                    if (actualStop >0)
                     {
                         FreezePlayer();
                         nextStop = actualStop - 1;

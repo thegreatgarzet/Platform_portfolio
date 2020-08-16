@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class MusicControl : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class MusicControl : MonoBehaviour
             sound.source.clip = sound.clip;
             sound.source.loop = sound.loop;
             sound.source.volume = sound.volume;
+            sound.source.outputAudioMixerGroup = sound.mixerGroup;
             sources.Add(sound.source);
         }
         foreach (AudioSource audiosources in sources)

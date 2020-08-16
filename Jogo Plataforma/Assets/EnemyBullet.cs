@@ -7,7 +7,7 @@ public class EnemyBullet : MonoBehaviour
     public int dir, damage, hp;
     public float speed;
     public Rigidbody2D rb;
-    public bool isBounce;
+    public bool isBounce, trepass;
     public bool destroyOverTime, spawnFX;
     public GameObject hitFX;
     private void FixedUpdate()
@@ -33,13 +33,20 @@ public class EnemyBullet : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("wall"))
+        if (collision.CompareTag("wall") && !trepass)
         {
             if (spawnFX)
             {
                 Instantiate(hitFX, transform.position, Quaternion.identity);
             }
             Destroy(gameObject);
+        }
+        if (collision.CompareTag("Player"))
+        {
+            if (spawnFX)
+            {
+                Instantiate(hitFX, transform.position, Quaternion.identity);
+            }
         }
     }
 }

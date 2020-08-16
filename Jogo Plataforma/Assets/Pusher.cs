@@ -23,8 +23,8 @@ public class Pusher : MonoBehaviour
     }
     private void Update()
     {
-        bool isGrounded1 = Physics2D.Raycast(new Vector2(transform.position.x + 0.1f, transform.position.y), transform.position, raycast, groundLayer);
-        bool isGrounded2 = Physics2D.Raycast(new Vector2(transform.position.x + -0.1f, transform.position.y), transform.position, raycast, groundLayer); ;
+        bool isGrounded1 = Physics2D.Raycast(new Vector2(transform.position.x + 0.1f, transform.position.y - 0.05f), transform.position, raycast, groundLayer);
+        bool isGrounded2 = Physics2D.Raycast(new Vector2(transform.position.x + -0.1f, transform.position.y - 0.05f), transform.position, raycast, groundLayer); ;
         if(isGrounded1 || isGrounded2)
         {
             onGround = true;

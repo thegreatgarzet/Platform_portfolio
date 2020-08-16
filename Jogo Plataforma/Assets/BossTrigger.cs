@@ -8,6 +8,7 @@ public class BossTrigger : MonoBehaviour
     public float timer;
     public bool startBossFight=false, callNewCam=true;
     GameManager gameManager;
+    public PolygonCollider2D colliderBoss;
     private void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
@@ -18,7 +19,7 @@ public class BossTrigger : MonoBehaviour
         {
             if (callNewCam)
             {
-                gameManager.EnterBossRoom(bossNum);
+                gameManager.EnterBossRoom(bossNum, colliderBoss);
                 callNewCam = false;
             }
             if (timer > 0)
@@ -34,6 +35,6 @@ public class BossTrigger : MonoBehaviour
     public void StartBossFight()
     {
         GetComponent<DialogueTrigger>().TriggerDialogue();
-        Destroy(gameObject);
+        Destroy(gameObject,0.1f);
     }
 }

@@ -101,7 +101,7 @@ MonoBehaviour:
   sprite: {fileID: 0}
   explosion: {fileID: 1896392160429617006, guid: ea18efd8da08afa4f8ac213cff67d63c,
     type: 3}
-  count: 30
+  count: 2
   points:
   - {x: -0.5, y: -0.5}
   - {x: 0, y: 0}

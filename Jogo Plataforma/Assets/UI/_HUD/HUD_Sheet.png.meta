@@ -143,8 +143,11 @@ TextureImporter:
   - first:
       213: -2644618532578810467
     second: HUD_Sheet_46
+  - first:
+      213: 9138562525417792929
+    second: HUD_Sheet_47
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -164,6 +167,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -198,6 +202,8 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -1237,7 +1243,7 @@ TextureImporter:
         width: 93
         height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1245,6 +1251,27 @@ TextureImporter:
       bones: []
       spriteID: d95a937d47d6c4bd0800000000000000
       internalID: -2644618532578810467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 537
+        width: 96
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5693dd232b2de70800000000000000
+      internalID: 9138562525417792929
       vertices: []
       indices: 
       edges: []

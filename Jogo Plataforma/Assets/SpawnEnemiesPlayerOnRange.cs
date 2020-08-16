@@ -18,6 +18,10 @@ public class SpawnEnemiesPlayerOnRange : MonoBehaviour
                 timer = timerB;
             }
         }
+        else
+        {
+            timer = 0;
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

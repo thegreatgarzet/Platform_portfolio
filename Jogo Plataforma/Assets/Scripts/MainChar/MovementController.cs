@@ -322,7 +322,7 @@ public class MovementController : MonoBehaviour
                                 state = 14;
                                 return;
                             }
-                            else if (controleArmas.hipershot)
+                            else if (/*controleArmas.hipershot*/controleArmas.timer >= 1)
                             {
                                 state = 1;
                                 return;

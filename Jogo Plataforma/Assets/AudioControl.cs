@@ -9,6 +9,7 @@ public class AudioControl : MonoBehaviour
 {
     public static AudioControl instance;
 	public Sound[] sounds;
+	public AudioMixer mixer;
 	void Awake()
 	{
 		if (instance != null)
@@ -27,6 +28,7 @@ public class AudioControl : MonoBehaviour
 			s.source.clip = s.clip;
 			s.source.loop = s.loop;
 			s.source.volume = s.volume;
+			s.source.outputAudioMixerGroup = s.mixerGroup;
 		}
 	}
 	public void PlaySound(string soundname)

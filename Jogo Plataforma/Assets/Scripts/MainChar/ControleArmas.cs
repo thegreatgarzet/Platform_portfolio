@@ -292,7 +292,7 @@ public class ControleArmas : MonoBehaviour
                                         audioman.PlaySound("charge2");
                                         break;
                                 }
-                            }else if(timer >= timerCharge3)
+                            }else if(timer >= timerCharge2)
                             {
                                 GameObject bulletHiper = Instantiate(hiper[0], transform.position, Quaternion.identity);
                                 if (movement.isRight)

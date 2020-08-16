@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEditorInternal;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RideArmorMove : MonoBehaviour
 {
@@ -14,11 +15,18 @@ public class RideArmorMove : MonoBehaviour
     public float groundRange, timer, timerB;
     public LayerMask groundLayer;
     public float horizontalInput, verticalInput, speed, jumpforce, jumptimer, jumptimerB;
-    public GameObject projectile;
+    public GameObject projectile, dashobj;
     public Transform shotspot;
     GameManager gameManager;
     AudioControl audioman;
-    public bool enableMovement;
+    public bool enableMovement, dash;
+
+    //Dash control
+    public float dashtimer, dashtimerB;
+    public float refreshtimer, refreshtimerB;
+    public int dashunit;
+    public Slider dashslider;
+    //
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -55,6 +63,14 @@ public class RideArmorMove : MonoBehaviour
             {
                 horizontalInput = Input.GetAxisRaw("Horizontal");
                 verticalInput = Input.GetAxisRaw("Vertical");
+                if (Input.GetButtonDown("L1"))
+                {
+                    dash = true;
+                }
+                if (Input.GetButtonUp("L1"))
+                {
+                    dash = false;
+                }
                 Movement();
                 Flip();
                 if (verticalInput > 0)
@@ -115,7 +131,11 @@ public class RideArmorMove : MonoBehaviour
     }
     public void PlayWalkSound()
     {
-        audioman.PlaySound("ridewalk");
+        if (onGround)
+        {
+            audioman.PlaySound("ridewalk");
+        }
+        
     }
     public void EnableMovement()
     {
@@ -130,24 +150,66 @@ public class RideArmorMove : MonoBehaviour
     {
         if (enableMovement)
         {
-            if (horizontalInput != 0)
+            dashslider.value = dashunit;
+            if (!dash)
             {
-                anim.SetInteger("state", 1);
-                if (horizontalInput > 0)
+                dashobj.SetActive(false);
+                if (horizontalInput != 0)
                 {
-                    rb.velocity = new Vector2(horizontalInput + 1 * speed, rb.velocity.y);
-                }
-                else if (horizontalInput < 0)
-                {
-                    rb.velocity = new Vector2(horizontalInput + -1 * speed, rb.velocity.y);
-                }
+                    anim.SetInteger("state", 1);
+                    if (horizontalInput > 0)
+                    {
+                        rb.velocity = new Vector2(horizontalInput + 1 * speed, rb.velocity.y);
+                    }
+                    else if (horizontalInput < 0)
+                    {
+                        rb.velocity = new Vector2(horizontalInput + -1 * speed, rb.velocity.y);
+                    }
 
+                }
+                else
+                {
+                    anim.SetInteger("state", 0);
+                    rb.velocity = new Vector2(0.0f, rb.velocity.y);
+                }
+                if (dashunit < 16)
+                {
+                    refreshtimer -= Time.deltaTime;
+                    if (refreshtimer<=0)
+                    {
+                        dashunit++;
+                        refreshtimer = refreshtimerB;
+                    }
+                }
+                
             }
             else
             {
-                anim.SetInteger("state", 0);
-                rb.velocity = new Vector2(0.0f, rb.velocity.y);
+                if (dashunit >= 0)
+                {
+                    dashobj.SetActive(true);
+                    if (isRight)
+                    {
+                        rb.velocity = new Vector2(1 * speed * 3, rb.velocity.y);
+                    }
+                    else if (!isRight)
+                    {
+                        rb.velocity = new Vector2(-1 * speed * 3, rb.velocity.y);
+                    }
+                    dashtimer -= Time.deltaTime;
+                    if (dashtimer <= 0)
+                    {
+                        dashunit--;
+                        dashtimer = dashtimerB;
+                    }
+                }
+                else
+                {
+                    dashobj.SetActive(false);
+                    dash = false;
+                }
             }
+            
         }
         else
         {
