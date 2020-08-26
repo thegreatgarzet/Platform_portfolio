@@ -1,0 +1,1333 @@
+fileFormatVersion: 2
+guid: 42b7992b24c6aec4a85b9f40986f1c34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7023143277953764435
+    second: craneanimationframes_0
+  - first:
+      213: -5356158198177304936
+    second: craneanimationframes_1
+  - first:
+      213: -6995511203092992056
+    second: craneanimationframes_2
+  - first:
+      213: -1033201862148986118
+    second: craneanimationframes_3
+  - first:
+      213: -2703651060510183282
+    second: craneanimationframes_4
+  - first:
+      213: 194849847020683873
+    second: craneanimationframes_5
+  - first:
+      213: 364380457144115383
+    second: craneanimationframes_6
+  - first:
+      213: -7082144248336902883
+    second: craneanimationframes_7
+  - first:
+      213: -8151117366655083985
+    second: craneanimationframes_8
+  - first:
+      213: -4880781993226842666
+    second: craneanimationframes_9
+  - first:
+      213: 4655506652625576061
+    second: craneanimationframes_10
+  - first:
+      213: -7360560513812752583
+    second: craneanimationframes_11
+  - first:
+      213: -6476964092860012104
+    second: craneanimationframes_12
+  - first:
+      213: -7126093833371621756
+    second: craneanimationframes_13
+  - first:
+      213: 3327552568594468580
+    second: craneanimationframes_14
+  - first:
+      213: -9445545873425713
+    second: craneanimationframes_15
+  - first:
+      213: -6535721414873527822
+    second: craneanimationframes_16
+  - first:
+      213: -2994871787392888181
+    second: craneanimationframes_17
+  - first:
+      213: 8848548678395599934
+    second: craneanimationframes_18
+  - first:
+      213: -465799568984858174
+    second: craneanimationframes_19
+  - first:
+      213: 7558854889024128036
+    second: craneanimationframes_20
+  - first:
+      213: 3044746450155582720
+    second: craneanimationframes_21
+  - first:
+      213: -7136021668341055288
+    second: craneanimationframes_22
+  - first:
+      213: -248792517259015751
+    second: craneanimationframes_23
+  - first:
+      213: 5236278448795450317
+    second: craneanimationframes_24
+  - first:
+      213: -2914959677460511289
+    second: craneanimationframes_25
+  - first:
+      213: 4253919427106621543
+    second: craneanimationframes_26
+  - first:
+      213: -2138004132692753524
+    second: craneanimationframes_27
+  - first:
+      213: -8921148622854027788
+    second: craneanimationframes_28
+  - first:
+      213: -7627208293511296230
+    second: craneanimationframes_29
+  - first:
+      213: 5120150271312761591
+    second: craneanimationframes_30
+  - first:
+      213: 8457643584244056064
+    second: craneanimationframes_31
+  - first:
+      213: 463049301165072625
+    second: craneanimationframes_32
+  - first:
+      213: -8790041234644886960
+    second: craneanimationframes_33
+  - first:
+      213: 3682540058322592071
+    second: craneanimationframes_34
+  - first:
+      213: 1361213584435973199
+    second: craneanimationframes_35
+  - first:
+      213: 1185696944996960071
+    second: craneanimationframes_36
+  - first:
+      213: 4944476903859770874
+    second: craneanimationframes_37
+  - first:
+      213: -7088548756814943863
+    second: craneanimationframes_38
+  - first:
+      213: 2464202213943356389
+    second: craneanimationframes_39
+  - first:
+      213: -1494719717010133321
+    second: craneanimationframes_40
+  - first:
+      213: -6895947060574208583
+    second: craneanimationframes_41
+  - first:
+      213: 320441976561635107
+    second: craneanimationframes_42
+  - first:
+      213: -6355523347255763231
+    second: craneanimationframes_43
+  - first:
+      213: 5784645198391293328
+    second: craneanimationframes_44
+  - first:
+      213: 9133659560125041854
+    second: craneanimationframes_45
+  - first:
+      213: 5475940409073028608
+    second: craneanimationframes_46
+  - first:
+      213: 2772922445655955278
+    second: craneanimationframes_47
+  - first:
+      213: 2831130806962280420
+    second: craneanimationframes_48
+  - first:
+      213: 2598039701654260356
+    second: craneanimationframes_49
+  - first:
+      213: -403425566407313644
+    second: craneanimationframes_50
+  - first:
+      213: -4645399804118929570
+    second: craneanimationframes_51
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: craneanimationframes_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c4b11e997377160800000000000000
+      internalID: 7023143277953764435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e68d43f7a1ba5b0800000000000000
+      internalID: -5356158198177304936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf6065ef93faee90800000000000000
+      internalID: -6995511203092992056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa6659616459a1f0800000000000000
+      internalID: -1033201862148986118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80bead5fa3ba7ad0800000000000000
+      internalID: -2703651060510183282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162053c47ee34b200800000000000000
+      internalID: 194849847020683873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b06b2f581a8e0500800000000000000
+      internalID: 364380457144115383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_7
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d159dc5345b27bd90800000000000000
+      internalID: -7082144248336902883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_8
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a910601f961ee80800000000000000
+      internalID: -8151117366655083985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd479bf2aaf34cb0800000000000000
+      internalID: -4880781993226842666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_10
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70273772aeab9040800000000000000
+      internalID: 4655506652625576061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_11
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1
+        width: 26
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9379c6ae5390ad990800000000000000
+      internalID: -7360560513812752583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_12
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b96e1659733d16a0800000000000000
+      internalID: -6476964092860012104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_13
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48668c90a670b1d90800000000000000
+      internalID: -7126093833371621756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_14
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee03865e67dd2e20800000000000000
+      internalID: 3327552568594468580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_15
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca318973517edff0800000000000000
+      internalID: -9445545873425713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_16
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9cc8b30047c45a0800000000000000
+      internalID: -6535721414873527822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_17
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b829b941af31076d0800000000000000
+      internalID: -2994871787392888181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_18
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c9581342c5cca70800000000000000
+      internalID: 8848548678395599934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_19
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1a02a82c52989f0800000000000000
+      internalID: -465799568984858174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_20
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4240209197276e860800000000000000
+      internalID: 7558854889024128036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_21
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005b7a0c3cc114a20800000000000000
+      internalID: 3044746450155582720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_22
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c08a05d912c7fc90800000000000000
+      internalID: -7136021668341055288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_23
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b94002168c1c8cf0800000000000000
+      internalID: -248792517259015751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_24
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb7c75918ffaa840800000000000000
+      internalID: 5236278448795450317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_25
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c501621e9bfb87d0800000000000000
+      internalID: -2914959677460511289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_26
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768c2d34e25f80b30800000000000000
+      internalID: 4253919427106621543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_27
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 0
+        width: 26
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c830886a1984452e0800000000000000
+      internalID: -2138004132692753524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_28
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f502520896b13480800000000000000
+      internalID: -8921148622854027788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_29
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b885db776b62690800000000000000
+      internalID: -7627208293511296230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_30
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f297364b8d6e0740800000000000000
+      internalID: 5120150271312761591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_31
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0008ab387069f5570800000000000000
+      internalID: 8457643584244056064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_32
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0ef65d2e41d6600800000000000000
+      internalID: 463049301165072625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_33
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a94f79110830680800000000000000
+      internalID: -8790041234644886960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_34
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741e67f0ca20b1330800000000000000
+      internalID: 3682540058322592071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_35
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c0eb30b8004e210800000000000000
+      internalID: 1361213584435973199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_36
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7474fc1e611747010800000000000000
+      internalID: 1185696944996960071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_37
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af55fae0c8f4e9440800000000000000
+      internalID: 4944476903859770874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_38
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9892201667a60ad90800000000000000
+      internalID: -7088548756814943863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_39
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb23d09bda923220800000000000000
+      internalID: 2464202213943356389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_40
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bea6d43650b14be0800000000000000
+      internalID: -1494719717010133321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_41
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd33984facac40a0800000000000000
+      internalID: -6895947060574208583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_42
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f8418a740727400800000000000000
+      internalID: 320441976561635107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_43
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee5e1d4035acc7a0800000000000000
+      internalID: -6355523347255763231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_44
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09538c9d820374050800000000000000
+      internalID: 5784645198391293328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_45
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc8a9c4af641ce70800000000000000
+      internalID: 9133659560125041854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_46
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e410e0ac27efb40800000000000000
+      internalID: 5475940409073028608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_47
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47d703d5466b7620800000000000000
+      internalID: 2772922445655955278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_48
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7d6ad08723a4720800000000000000
+      internalID: 2831130806962280420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_49
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ac679f7571e0420800000000000000
+      internalID: 2598039701654260356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craneanimationframes_50
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 0
+        width: 38
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4173bf4b59eb66af0800000000000000
+      internalID: -403425566407313644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

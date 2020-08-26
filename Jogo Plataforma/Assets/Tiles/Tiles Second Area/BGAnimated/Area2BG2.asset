@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Area2BG2
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -7079146721498992412, guid: d0c7f016f76f7f440940f6719ccfe59b, type: 3}
+  - {fileID: -1289751898617991664, guid: d0c7f016f76f7f440940f6719ccfe59b, type: 3}
+  - {fileID: 6951065666760745973, guid: d0c7f016f76f7f440940f6719ccfe59b, type: 3}
+  - {fileID: -3648229780017600244, guid: d0c7f016f76f7f440940f6719ccfe59b, type: 3}
+  - {fileID: 6276542588070562631, guid: d0c7f016f76f7f440940f6719ccfe59b, type: 3}
+  - {fileID: -4791155005012489842, guid: d0c7f016f76f7f440940f6719ccfe59b, type: 3}
+  m_MinSpeed: 2
+  m_MaxSpeed: 2
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

@@ -62,6 +62,26 @@ public class BulletScript : MonoBehaviour
                 }
 
 
+            }else if (collision.GetComponent<Inimigo_Basico_Hp_Control>() !=null)
+            {
+                collision.GetComponent<Inimigo_Basico_Hp_Control>().ReceiveDamage(damage);
+                if (isHyper)
+                {
+                    Instantiate(damageHit_fx, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
+                    bulletHP--;
+                    if (bulletHP <= 0)
+                    {
+
+                        Instantiate(hit_fx, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
+                        Destroy(gameObject);
+                    }
+                }
+                else
+                {
+
+                    Instantiate(hit_fx, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
+                    Destroy(gameObject);
+                }
             }
             else
             {

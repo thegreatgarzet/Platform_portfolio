@@ -1,0 +1,502 @@
+fileFormatVersion: 2
+guid: 1dea14317e860cc46bdb9d6c661974d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7131466793052357289
+    second: LimpadorSheet_0
+  - first:
+      213: -2264663761965979882
+    second: LimpadorSheet_1
+  - first:
+      213: 1934170063290567008
+    second: LimpadorSheet_2
+  - first:
+      213: 2211240165826636429
+    second: LimpadorSheet_3
+  - first:
+      213: 9015151276627474615
+    second: LimpadorSheet_4
+  - first:
+      213: -7060347289701125573
+    second: LimpadorSheet_5
+  - first:
+      213: -1271550856458222352
+    second: LimpadorSheet_6
+  - first:
+      213: 4687072204907818639
+    second: LimpadorSheet_7
+  - first:
+      213: -404343219697878939
+    second: LimpadorSheet_8
+  - first:
+      213: -7432840968511781028
+    second: LimpadorSheet_9
+  - first:
+      213: -7254967699980971278
+    second: LimpadorSheet_10
+  - first:
+      213: -7271346344946174654
+    second: LimpadorSheet_11
+  - first:
+      213: 2530401389501525028
+    second: LimpadorSheet_12
+  - first:
+      213: 390841826887742114
+    second: LimpadorSheet_13
+  - first:
+      213: 2016072344668207945
+    second: LimpadorSheet_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LimpadorSheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 254
+        width: 24
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2416f934f08f260800000000000000
+      internalID: 7131466793052357289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 254
+        width: 24
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6176154ae4c4290e0800000000000000
+      internalID: -2264663761965979882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 254
+        width: 24
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06901a5cc6d87da10800000000000000
+      internalID: 1934170063290567008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 254
+        width: 24
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a2c251737efae10800000000000000
+      internalID: 2211240165826636429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 256
+        width: 24
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b83acf52504c1d70800000000000000
+      internalID: 9015151276627474615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 211
+        width: 48
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6041667, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32f87e1c8b940e90800000000000000
+      internalID: -7060347289701125573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 211
+        width: 47
+        height: 38
+      alignment: 9
+      pivot: {x: 0.59574467, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4c6f6ab3b8a5ee0800000000000000
+      internalID: -1271550856458222352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 211
+        width: 47
+        height: 38
+      alignment: 9
+      pivot: {x: 0.59574467, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e23225653db0140800000000000000
+      internalID: 4687072204907818639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 170
+        width: 55
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6545454, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568f196ebfb736af0800000000000000
+      internalID: -404343219697878939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 171
+        width: 70
+        height: 35
+      alignment: 9
+      pivot: {x: 0.7285714, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5782ef158e39d890800000000000000
+      internalID: -7432840968511781028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 100
+        width: 43
+        height: 52
+      alignment: 9
+      pivot: {x: 0.7209302, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f293b9b05d215b90800000000000000
+      internalID: -7254967699980971278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 98
+        width: 47
+        height: 61
+      alignment: 9
+      pivot: {x: 0.7446808, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245f5a6460df61b90800000000000000
+      internalID: -7271346344946174654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 98
+        width: 43
+        height: 61
+      alignment: 9
+      pivot: {x: 0.7209302, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ca46838aacd1320800000000000000
+      internalID: 2530401389501525028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 30
+        width: 41
+        height: 61
+      alignment: 9
+      pivot: {x: 0.70731705, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2320f129c8c6500800000000000000
+      internalID: 390841826887742114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimpadorSheet_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 30
+        width: 39
+        height: 52
+      alignment: 9
+      pivot: {x: 0.6923077, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bff69ad178afb10800000000000000
+      internalID: 2016072344668207945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
