@@ -8,7 +8,7 @@ public class ColorSwapScript : MonoBehaviour
     public ColorSet[] colors;
     public Material colorswap, colorswapRep;
     SpriteRenderer renderer;
-    public int idarma;
+    public int idarma, colorcount;
     private void Awake()
     {
         idColor = FindObjectOfType<ControleArmas>();
@@ -23,11 +23,11 @@ public class ColorSwapScript : MonoBehaviour
     }
     public void ChangePallet(int idColor)
     {
-
-        renderer.material.SetColor("_Color1", colors[idColor]._1);
-        renderer.material.SetColor("_Color2", colors[idColor]._2);
-        renderer.material.SetColor("_Color3", colors[idColor]._3);
-        renderer.material.SetColor("_Color4", colors[idColor]._4);
-        renderer.material.SetColor("_Color5", colors[idColor]._5);
+        colorcount = 0;
+        foreach (Color color in colors[idColor].colorpallete)
+        {
+            renderer.material.SetColor("_Color" + colorcount.ToString(), colors[idColor].colorpallete[colorcount]);
+            colorcount++;
+        }
     }
 }
