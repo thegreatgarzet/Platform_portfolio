@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using ActionCode.ColorPalettes;
+using JetBrains.Annotations;
 
 public class MovementController : MonoBehaviour
 {
     Vector2 dir;
+    public float impulseforce, lastyPos, maxFallForce;
     public bool isRight, isgrounded, canjump, isjumping,isonwall, jumped=false, canDouble=false, canDetectGround=true, canReceiveDamage = true;
     public bool groundDetected;
     public bool onWater = false, isfalling;
@@ -79,7 +81,7 @@ public class MovementController : MonoBehaviour
     //
     public bool isOnPlatform = false;
     float moveDir;
-    InputControl control;
+    Transform platform;
 
     AudioControl audioman;
 
@@ -107,7 +109,13 @@ public class MovementController : MonoBehaviour
     void Update()
     {
         float vertical = Input.GetAxisRaw("Vertical");
-        
+        float actualyPos = rb.velocity.y;
+        if (actualyPos < lastyPos)
+        {
+            isfalling = true;
+            print("falling");
+        }
+        lastyPos = rb.velocity.y;
         moveInput = Input.GetAxisRaw("Horizontal");
         //moveInput = moveDir;
         if (isRight)
@@ -154,16 +162,23 @@ public class MovementController : MonoBehaviour
             if (canmove && !rideArmor)
             {
                 Flip();
+                /*
+                if (isOnPlatform && !isjumping)
+                {
+                    Vector2 posOnPlat = new Vector2(transform.position.x, platform.position.y);
+                    transform.position = posOnPlat;
+                }*/
                 if (Input.GetButtonDown("Jump") && jumps>0 && !jumped)
                 {
+                    rb.isKinematic = false;
                     if (_DoubleJump && !isonwall)
                     {
-                       
+                        rb.AddForce(new Vector2(0.0f, impulseforce), ForceMode2D.Impulse);
                         isjumping = true;
                     }
                     else if(pressedJump /*&& !isonwall*/)
                     {
-                        
+                        rb.AddForce(new Vector2(0.0f, impulseforce), ForceMode2D.Impulse);
                         isjumping = true;
                     }
                     
@@ -206,12 +221,12 @@ public class MovementController : MonoBehaviour
                 if (isjumping)
                 {
                     jumptimer -= Time.deltaTime;
-                    rb.velocity = Vector2.up * jumpforce;
+                    //rb.velocity = Vector2.up * jumpforce;
                     isfalling = false;
                     if (jumptimer <= 0)
                     {
                         //rb.velocity = Vector2.up * 1f;
-                        rb.velocity = Vector2.up * jumpforce/2;
+                        //rb.velocity = Vector2.up * jumpforce/2;
                         if (!_DoubleJump)
                         {
                             isjumping = false;
@@ -265,7 +280,7 @@ public class MovementController : MonoBehaviour
             {
                 case 0:
                     cancheckdir = true;
-                    rb.velocity = Vector2.up * 0;
+                    //rb.velocity = Vector2.up * 0;
                     box.enabled = true;
                     box2.enabled = false;
                     canmove = true;
@@ -781,7 +796,7 @@ public class MovementController : MonoBehaviour
                 case 8://Dash
                     if (isOnPlatform)
                     {
-                        ExitPlatform();
+                       // 
                     }
                     if (_OverHeated)
                     {
@@ -837,8 +852,8 @@ public class MovementController : MonoBehaviour
                             {
                            
                                 dTimer -= Time.deltaTime;
-                                rb.velocity = Vector2.up * 0;
-                                rb.gravityScale = 0;
+                                //rb.velocity = Vector2.up * 0;
+                                //rb.gravityScale = 0;
                                 dashing = true;
                                 if (_HypDash)
                                 {
@@ -900,13 +915,21 @@ public class MovementController : MonoBehaviour
                         }
                         if (isgrounded)
                         {
-                            if (Input.GetButtonDown("Jump"))
+                            
+                            if (Input.GetButton("Jump")) 
                             {
                                 speed = dashSpeed;
                                 rb.gravityScale = gravity;
                                 state = 3;
                                 return;
+                             }
                             }
+                        else if(!isgrounded && !isfalling && isjumping)
+                        {
+                            
+                            speed = dashSpeed;
+                            rb.gravityScale = gravity;
+                            state = 3;
                         }
                     break;
                 case 9:
@@ -1088,35 +1111,12 @@ public class MovementController : MonoBehaviour
     {
         if (!ispaused)
         {
+            /*
             if (canmove && !rideArmor)
             {
-                if (isfalling && rb.velocity.y<= -10)
-                {
-                    rb.velocity = new Vector2(rb.velocity.x, -12f);
-                }
-                if (soundCrash)
-                {
-                    
-                    if (isRight)
-                    {
-                        rb.velocity = new Vector2(1 * (baseSpeed * dashSpeed), rb.velocity.y * 0);
-                    }
-                    else
-                    {
-                        rb.velocity = new Vector2((-1 * (baseSpeed * dashSpeed)), rb.velocity.y * 0);
-                    }
+                
 
-                }else if (fireUppercut)
-                {
-                    if (isRight)
-                    {
-                        rb.velocity = new Vector2(1, dashSpeed*5);
-                    }
-                    else
-                    {
-                        rb.velocity = new Vector2(-1,  dashSpeed*5);
-                    }
-                }
+                
                 else
                 if (!wallJumping)
                 {
@@ -1137,6 +1137,7 @@ public class MovementController : MonoBehaviour
                             }
                             else
                             {
+
                                 rb.velocity = new Vector2((moveInput * 1) * speed, rb.velocity.y);
                             }
                         }
@@ -1155,7 +1156,7 @@ public class MovementController : MonoBehaviour
                             }
                             else
                             {
-                                rb.velocity = new Vector2((moveInput * 1) * speed + 1, 0.0f);
+                                rb.velocity = new Vector2((moveInput * 1) * speed + 1, rb.velocity.y);
                             }
                         }
                         else if (onSlope && !isjumping)
@@ -1241,7 +1242,7 @@ public class MovementController : MonoBehaviour
                                     {
                                         if (!isjumping && !isfalling)
                                         {
-                                            rb.velocity = new Vector2(1 * (baseSpeed * dashSpeed), rb.velocity.y - 10f);
+                                            rb.velocity = new Vector2(1 * (baseSpeed * dashSpeed), rb.velocity.y);
                                         }
                                         else
                                         {
@@ -1275,6 +1276,7 @@ public class MovementController : MonoBehaviour
                             }
                             else
                             {
+                                
                                 rb.velocity = new Vector2((moveInput * 1) * speed, rb.velocity.y);
                             }
                             
@@ -1295,7 +1297,51 @@ public class MovementController : MonoBehaviour
                
                     
                 }
+            }*/
+            if(canmove && !rideArmor)
+            {
+                if (isfalling && rb.velocity.y <= -maxFallForce)
+                {
+                    rb.velocity = new Vector2(rb.velocity.x, -maxFallForce);
+                }
+                if (soundCrash)
+                {
+
+                    if (isRight)
+                    {
+                        rb.velocity = new Vector2(1 * (baseSpeed * dashSpeed), rb.velocity.y * 0);
+                    }
+                    else
+                    {
+                        rb.velocity = new Vector2((-1 * (baseSpeed * dashSpeed)), rb.velocity.y * 0);
+                    }
+
+                }
+                else if (fireUppercut)
+                {
+                    if (isRight)
+                    {
+                        rb.velocity = new Vector2(1, dashSpeed * 5);
+                    }
+                    else
+                    {
+                        rb.velocity = new Vector2(-1, dashSpeed * 5);
+                    }
+                } else
+                if (dashing)
+                {
+                    if (isRight)
+                    {
+                        rb.velocity = new Vector2(1 * (baseSpeed * dashSpeed), rb.velocity.y);
+                    }
+                    else
+                    {
+                        rb.velocity = new Vector2(-1 * (baseSpeed * dashSpeed), rb.velocity.y);
+                    }
+                }
+                else { rb.velocity = new Vector2((moveInput * 1) * speed, rb.velocity.y); }
             }
+            
         }
         else
         {
@@ -1426,14 +1472,15 @@ public class MovementController : MonoBehaviour
                     break;
                 case "platform":
                     /*
-                    isOnPlatform = true;
                     gameObject.transform.SetParent(collision.transform.parent);
                     collision.GetComponentInParent<ChlorineApplicator>().playerRB = gameObject.GetComponent<Rigidbody2D>();
                     collision.GetComponentInParent<ChlorineApplicator>().timer = collision.GetComponentInParent<ChlorineApplicator>().timerB;*/
                     if (!dashing && canReceiveDamage)
                     {
+                        platform = collision.GetComponent<Transform>();
                         transform.SetParent(collision.transform);
                         rb.isKinematic = true;
+                        rb.velocity = Vector2.up * 0;
                         isOnPlatform = true;
                         isgrounded = true;
                         isonwall = false;
@@ -1585,9 +1632,10 @@ public class MovementController : MonoBehaviour
             case "platform":
                 /*
                 gameObject.transform.SetParent(null);
-                collision.GetComponentInParent<ChlorineApplicator>().playerRB = new Rigidbody2D();
-                isOnPlatform = false;*/
-             
+                collision.GetComponentInParent<ChlorineApplicator>().playerRB = new Rigidbody2D();*/
+                ExitPlatform();
+                isOnPlatform = false;
+                platform = null;
                 break;
             case "checkpoint":
                 gameManager.canCallSaveMenu = false;

@@ -1,0 +1,445 @@
+fileFormatVersion: 2
+guid: b7700eed982b53b4dab703e29ead5a08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3337569252479816979
+    second: SkyObjects_0
+  - first:
+      213: 1819193542210431069
+    second: SkyObjects_1
+  - first:
+      213: 7712520638771328995
+    second: SkyObjects_2
+  - first:
+      213: 3956091808948590437
+    second: propeller2
+  - first:
+      213: 522603027255771480
+    second: propeller3
+  - first:
+      213: 5551068063775721194
+    second: propeller1
+  - first:
+      213: 3785627465720963717
+    second: propeller4
+  - first:
+      213: -2427549188502419243
+    second: propeller5
+  - first:
+      213: 3806172005418884571
+    second: propeller6
+  - first:
+      213: 1315287730376902860
+    second: SkyObjects_9
+  - first:
+      213: 2075856212971724552
+    second: SkyObjects_10
+  - first:
+      213: 3299773797261391117
+    second: SkyObjects_10
+  - first:
+      213: 9039173945086034922
+    second: SkyObjects_11
+  - first:
+      213: -4215210435930771972
+    second: SkyObjects_12
+  - first:
+      213: -7625202674173590567
+    second: SkyObjects_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkyObjects_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 150
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaaca4b2729ea1d0800000000000000
+      internalID: -3337569252479816979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyObjects_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 150
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58232d53e21f3910800000000000000
+      internalID: 1819193542210431069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyObjects_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 150
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e775d488a0680b60800000000000000
+      internalID: 7712520638771328995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: propeller1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae60e514efa590d40800000000000000
+      internalID: 5551068063775721194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: propeller2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 121
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567963b3a8cd6e630800000000000000
+      internalID: 3956091808948590437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: propeller3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 121
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851cf163fa8a04700800000000000000
+      internalID: 522603027255771480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: propeller4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 121
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582a24a7f10498430800000000000000
+      internalID: 3785627465720963717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: propeller5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 122
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d88680ffdc9f4ed0800000000000000
+      internalID: -2427549188502419243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: propeller6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 122
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd5701e54d32d430800000000000000
+      internalID: 3806172005418884571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyObjects_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 390
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc88b8ad837d04210800000000000000
+      internalID: 1315287730376902860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyObjects_10
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 185
+        width: 90
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0538e029c62bcd20800000000000000
+      internalID: 3299773797261391117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyObjects_11
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 185
+        width: 90
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3c1dbbfc8917d70800000000000000
+      internalID: 9039173945086034922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyObjects_12
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 185
+        width: 90
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfda3d011709085c0800000000000000
+      internalID: -4215210435930771972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyObjects_13
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 128
+        width: 90
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d346816196dd2690800000000000000
+      internalID: -7625202674173590567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: 40e319d77ea6d6044866dc6be5ec07b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8033117042376104872
+    second: SubBoss2animate_0
+  - first:
+      213: -4511862871035110765
+    second: SubBoss2animate_1
+  - first:
+      213: -6859002896250176005
+    second: SubBoss2animate_2
+  - first:
+      213: 9039830099823080628
+    second: SubBoss2animate_3
+  - first:
+      213: 2585803548397347778
+    second: SubBoss2animate_4
+  - first:
+      213: 4906141375560208477
+    second: SubBoss2animate_5
+  - first:
+      213: 5666920628794407800
+    second: SubBoss2animate_6
+  - first:
+      213: -5424361517763206539
+    second: SubBoss2animate_7
+  - first:
+      213: -4033769984412735422
+    second: SubBoss2animate_8
+  - first:
+      213: -55910210908763672
+    second: SubBoss2animate_9
+  - first:
+      213: -645880139067174551
+    second: SubBoss2animate_10
+  - first:
+      213: 7460265353455304629
+    second: SubBoss2animate_11
+  - first:
+      213: 2554207492001150098
+    second: SubBoss2animate_12
+  - first:
+      213: 6097730650693920059
+    second: SubBoss2animate_13
+  - first:
+      213: -2304984613422781745
+    second: SubBoss2animate_14
+  - first:
+      213: 9048718521006603848
+    second: SubBoss2animate_15
+  - first:
+      213: -2024090226653767329
+    second: SubBoss2animate_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SubBoss2animate_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 461
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abd6f5836d5b7f60800000000000000
+      internalID: 8033117042376104872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 461
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a9da8af94a261c0800000000000000
+      internalID: -4511862871035110765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_2
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 461
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdf1a7d43defc0a0800000000000000
+      internalID: -6859002896250176005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_3
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 461
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4b6d9a49de37d70800000000000000
+      internalID: 9039830099823080628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_4
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 461
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c32b2980ae92e320800000000000000
+      internalID: 2585803548397347778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 343
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50dc14569d161440800000000000000
+      internalID: 4906141375560208477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 343
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bbf998942f4ae40800000000000000
+      internalID: 5666920628794407800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 316
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572ec6860fbc8b4b0800000000000000
+      internalID: -5424361517763206539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_8
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 316
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248227d229b2508c0800000000000000
+      internalID: -4033769984412735422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_9
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 316
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9477b95fd593ff0800000000000000
+      internalID: -55910210908763672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 202
+        width: 169
+        height: 39
+      alignment: 9
+      pivot: {x: 0.49112427, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961db6f7f6f5907f0800000000000000
+      internalID: -645880139067174551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_11
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 182
+        width: 146
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf7bd210df288760800000000000000
+      internalID: 7460265353455304629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_12
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 202
+        width: 169
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5088757, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294be536e2e527320800000000000000
+      internalID: 2554207492001150098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_13
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 182
+        width: 146
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b356f9a38bd7f9450800000000000000
+      internalID: 6097730650693920059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_14
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 225
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaa138d4bc0300e0800000000000000
+      internalID: -2304984613422781745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 107
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84eb81d7d81839d70800000000000000
+      internalID: 9048718521006603848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBoss2animate_16
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 107
+        width: 169
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5956f6b9acf8e3e0800000000000000
+      internalID: -2024090226653767329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

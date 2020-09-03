@@ -8,11 +8,12 @@ public class CloudMove : MonoBehaviour
     public float speed;
     private void Awake()
     {
-        transform.position = startpoint;
+        //transform.position = startpoint;
+        startpoint.y = transform.position.y;
     }
     private void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, endpoint, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, new Vector2(endpoint.x, transform.position.y), speed * Time.deltaTime);
         if(transform.position.x == endpoint.x)
         {
             transform.position = startpoint;

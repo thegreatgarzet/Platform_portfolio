@@ -8,7 +8,7 @@ public class Inimigo_Basico_Hp_Control : MonoBehaviour
     public bool boss;
     public bool canReceiveDamage=true;
     public float timer, timerB;
-    public GeneralFunctions basicFunctions;
+    //public GeneralFunctions basicFunctions;
     public GameObject explosion;
     GameManager gameManager;
     InvencibleBlink blink;

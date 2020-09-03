@@ -51,6 +51,7 @@ public class BossDeathTrigger : MonoBehaviour
                 audioman.SoundStop("explosion");
                 Destroy(gameObject, 0.15f);
                 gameManager.ExitBossRoom();
+                gameManager.ChangeCameraToPlayer();
             }
         }
         
