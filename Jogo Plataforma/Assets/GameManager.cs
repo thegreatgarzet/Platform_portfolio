@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     public bool isOnSafeRoom = false, canCutscene=true, canCallSaveMenu=false, onSave=false, onMenu=false, onTyping, canCallMenu=true;
     //
     public CinemachineVirtualCamera cinemachineBrain;
-    //CheckPoint
+    //CheckPointcah
     public Transform checkPoint;
     //
     bool canCallFade = true;
@@ -41,6 +41,10 @@ public class GameManager : MonoBehaviour
     BossValuesControl bossValuesControl;
     //Hp Stuff
     public GameObject objectHpPlayer, objectHpRide;
+    //Shake
+    float shaketimer = -0.1f;
+    public float basicEnemiesIntensity;
+    public CinemachineVirtualCamera virtualmain;
     private void Awake()
     {
         player = GameObject.Find("MainChar");
@@ -58,6 +62,7 @@ public class GameManager : MonoBehaviour
         //Get info from playerprefs
         dificulty = PlayerPrefs.GetInt("difficulty");
         int dif = PlayerPrefs.GetInt("dialogue");
+        virtualmain = cameraMain.GetComponent<CinemachineVirtualCamera>();
         if (dif==0)
         {
             canCutscene = false;
@@ -91,8 +96,15 @@ public class GameManager : MonoBehaviour
             cameraMain.SetActive(true);
             cameraBoss[0].SetActive(false);
         }
-     
-
+        if (shaketimer > 0)
+        {
+            shaketimer -= Time.deltaTime;
+            if (shaketimer <= 0)
+            {
+                StopCameraShake();
+            }
+        }
+        
         if (playerDead)
         {
             player.GetComponent<MovementController>().ispaused = true;
@@ -288,5 +300,19 @@ public class GameManager : MonoBehaviour
         player.GetComponent<MovementController>().ispaused = false;
         controleArmas.canshot = true;
         canCallMenu = true;
+    }
+    public void CameraShake(float timer, float intensity)
+    {
+        CinemachineBasicMultiChannelPerlin mainCamera = virtualmain.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        mainCamera.m_AmplitudeGain = intensity;
+        mainCamera.m_FrequencyGain = intensity;
+
+        shaketimer = timer;
+    }
+    public void StopCameraShake()
+    {
+        CinemachineBasicMultiChannelPerlin mainCamera = virtualmain.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        mainCamera.m_AmplitudeGain = 0.0f;
+        mainCamera.m_FrequencyGain = 0.0f;
     }
 }

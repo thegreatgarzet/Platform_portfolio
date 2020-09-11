@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2919243553927612024}
   - component: {fileID: 2919243553927612039}
   - component: {fileID: 4001364332920035927}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BasicWeapons_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,6 +48,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2644155023881202015, guid: 42db69193e224b94cb6093ab69ec05ae,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -115,3 +116,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d01e4b7678d73847ae8dcaf564b235e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveUp: 0
+  destroyOnLeave: 0
+  destroyOnCol: 0
+  layer:
+    serializedVersion: 2
+    m_Bits: 0
+  hasRB: 0
+  speed: 0
+  destroyOnColTimer: 0

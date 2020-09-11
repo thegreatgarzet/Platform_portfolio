@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1597376186676123673}
   - component: {fileID: 1597376186676123672}
   - component: {fileID: 1597376186676123749}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SwordSlashBuff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,6 +50,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -5902122170595483115, guid: c1afaa3bff5b96f468540c1296cd84b0,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,8 +122,10 @@ MonoBehaviour:
   destroyTime: 1
   damage: 3
   dir: 0
+  bulletHP: 3
   isBall: 0
   isHyper: 0
+  isSound: 0
   rb: {fileID: 1597376186676123672}
   hit_fx: {fileID: 2129546414028494474, guid: 666030c329729a5498cc7dc7b0eb0302, type: 3}
   damageHit_fx: {fileID: 2129546414028494474, guid: 666030c329729a5498cc7dc7b0eb0302,

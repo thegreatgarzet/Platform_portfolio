@@ -9,7 +9,8 @@ using JetBrains.Annotations;
 public class MovementController : MonoBehaviour
 {
     Vector2 dir;
-    public float impulseforce, lastyPos, maxFallForce;
+    public float impulseforce, impulsewater, lastyPos, maxFallForce, waterFallForce;
+    float originalImpulse, originalFallForce;
     public bool isRight, isgrounded, canjump, isjumping,isonwall, jumped=false, canDouble=false, canDetectGround=true, canReceiveDamage = true;
     public bool groundDetected;
     public bool onWater = false, isfalling;
@@ -105,6 +106,8 @@ public class MovementController : MonoBehaviour
         timerSlash = timerSlashB;
         fireDashObj.SetActive(false);
         blink = GetComponent<InvencibleBlink>();
+        originalImpulse = impulseforce;
+        originalFallForce = maxFallForce;
     }
     void Update()
     {
@@ -113,7 +116,7 @@ public class MovementController : MonoBehaviour
         if (actualyPos < lastyPos)
         {
             isfalling = true;
-            print("falling");
+            
         }
         lastyPos = rb.velocity.y;
         moveInput = Input.GetAxisRaw("Horizontal");
@@ -1304,6 +1307,17 @@ public class MovementController : MonoBehaviour
                 {
                     rb.velocity = new Vector2(rb.velocity.x, -maxFallForce);
                 }
+                if (wallJumping)
+                {
+                    if (isRight)
+                    {
+                        rb.velocity = new Vector2(1 - speed, jumpforce);
+                    }
+                    else
+                    {
+                        rb.velocity = new Vector2(speed - 1, jumpforce);
+                    }
+                }else
                 if (soundCrash)
                 {
 
@@ -1328,6 +1342,7 @@ public class MovementController : MonoBehaviour
                         rb.velocity = new Vector2(-1, dashSpeed * 5);
                     }
                 } else
+
                 if (dashing)
                 {
                     if (isRight)
@@ -1532,9 +1547,8 @@ public class MovementController : MonoBehaviour
                 break;
             case "water":
                 onWater = true;
-                gravity = waterGravity;
-                rb.gravityScale = 1;
-                rb.velocity = Vector2.up * (rb.velocity.y / 1.15f);
+                impulseforce = impulsewater;
+                maxFallForce = waterFallForce;
                 break;
             
             case "RideArmor":
@@ -1623,8 +1637,8 @@ public class MovementController : MonoBehaviour
         {
             case"water":
                 onWater = false;
-                gravity = originalgravity;
-                rb.gravityScale = gravity;
+                maxFallForce = originalFallForce;
+                impulseforce = originalImpulse;
                 break;
             case "callBossText":
                 ispaused = true;

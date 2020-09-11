@@ -50,6 +50,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4456845255064093189, guid: 42db69193e224b94cb6093ab69ec05ae,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,8 +122,10 @@ MonoBehaviour:
   destroyTime: 2
   damage: 3
   dir: 0
+  bulletHP: 3
   isBall: 0
   isHyper: 0
+  isSound: 0
   rb: {fileID: 9190390340280069585}
   hit_fx: {fileID: 4137260305200540749, guid: a215619bc774f1b478d95f5b40bd1102, type: 3}
   damageHit_fx: {fileID: 1979814531457060542, guid: 1968df62ac9a14849a0a6b420f23f317,

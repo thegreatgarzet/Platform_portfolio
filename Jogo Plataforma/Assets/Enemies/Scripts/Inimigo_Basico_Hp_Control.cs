@@ -8,6 +8,7 @@ public class Inimigo_Basico_Hp_Control : MonoBehaviour
     public bool boss;
     public bool canReceiveDamage=true;
     public float timer, timerB;
+    public Vector2 explosion_offset;
     //public GeneralFunctions basicFunctions;
     public GameObject explosion;
     GameManager gameManager;
@@ -68,7 +69,7 @@ public class Inimigo_Basico_Hp_Control : MonoBehaviour
     {
         if (vida<=0)
         {
-            Instantiate(explosion, new Vector2(transform.position.x, transform.position.y + 0.5f), Quaternion.identity);
+            Instantiate(explosion, new Vector2(transform.position.x + explosion_offset.x, transform.position.y + explosion_offset.y), Quaternion.identity);
             //basicFunctions.AutoDestruirObj(0);
             Destroy(gameObject);
         }

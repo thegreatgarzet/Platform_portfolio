@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8578422510529858523}
   - component: {fileID: 8014111352212927145}
   - component: {fileID: 7742374200826600380}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ChargeFX1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,6 +48,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 10
   m_Sprite: {fileID: -3603627523792785206, guid: 837f7bb9456e90e409bb2394b0c20f78,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,1150 @@
+fileFormatVersion: 2
+guid: d5e4db108102a4b42867922881ff299e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7848301152237473368
+    second: TilesSewers_0
+  - first:
+      213: 5253591972223918614
+    second: TilesSewers_1
+  - first:
+      213: -7424418692623566341
+    second: TilesSewers_2
+  - first:
+      213: 8483901840098137252
+    second: TilesSewers_3
+  - first:
+      213: 9124538795884168652
+    second: TilesSewers_4
+  - first:
+      213: 6337809182247832239
+    second: TilesSewers_5
+  - first:
+      213: 2625024563269004946
+    second: TilesSewers_6
+  - first:
+      213: -4290241414111614095
+    second: TilesSewers_7
+  - first:
+      213: 5192931351622009299
+    second: TilesSewers_8
+  - first:
+      213: -8708634243208884158
+    second: TilesSewers_9
+  - first:
+      213: -6675643938103045246
+    second: waterfall1_0
+  - first:
+      213: 9138650679114198640
+    second: waterfall1_1
+  - first:
+      213: 4410737123055430366
+    second: waterfall1_2
+  - first:
+      213: 2567611319206683738
+    second: waterfall1_3
+  - first:
+      213: -6835587591782006160
+    second: waterfall1_4
+  - first:
+      213: 678921843058938114
+    second: waterfall1_5
+  - first:
+      213: -7266339663898269518
+    second: waterfall2_0
+  - first:
+      213: 7682430641494517975
+    second: waterfall2_1
+  - first:
+      213: 7906529612767519918
+    second: waterfall2_2
+  - first:
+      213: -8912676646684376033
+    second: waterfall2_3
+  - first:
+      213: -8537768705830163379
+    second: waterfall2_4
+  - first:
+      213: -8896894269158880417
+    second: waterfall2_5
+  - first:
+      213: 9059285018879510535
+    second: TilesSewers_22
+  - first:
+      213: -407680744971543389
+    second: TilesSewers_23
+  - first:
+      213: -7848303628236424075
+    second: TilesSewers_24
+  - first:
+      213: 2526275678103658980
+    second: TilesSewers_25
+  - first:
+      213: 1064059078153777933
+    second: TilesSewers_26
+  - first:
+      213: -9075364965518072012
+    second: TilesSewers_27
+  - first:
+      213: 7299547755150223670
+    second: TilesSewers_28
+  - first:
+      213: 3116267343319810440
+    second: TilesSewers_29
+  - first:
+      213: -243418354178493853
+    second: TilesSewers_30
+  - first:
+      213: -2243185483023318819
+    second: TilesSewers_31
+  - first:
+      213: 1919276447138797774
+    second: TilesSewers_32
+  - first:
+      213: 2107834122235525206
+    second: TilesSewers_33
+  - first:
+      213: 4506991181751948719
+    second: TilesSewers_34
+  - first:
+      213: -1314134051787997877
+    second: TilesSewers_35
+  - first:
+      213: 2193459494047776704
+    second: TilesSewers_36
+  - first:
+      213: -7620989961988802923
+    second: TilesSewers_37
+  - first:
+      213: 7486585441451777445
+    second: TilesSewers_38
+  - first:
+      213: 2498055615565826028
+    second: TilesSewers_39
+  - first:
+      213: 7624956360632345961
+    second: TilesSewers_40
+  - first:
+      213: -2736251426441114547
+    second: TilesSewers_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TilesSewers_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 240
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1b8922fab351390800000000000000
+      internalID: -7848301152237473368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 240
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6122043601288e840800000000000000
+      internalID: 5253591972223918614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 240
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9f66a098a27f890800000000000000
+      internalID: -7424418692623566341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 240
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4155026cfdcb570800000000000000
+      internalID: 8483901840098137252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 210
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc542f3e0bfd0ae70800000000000000
+      internalID: 9124538795884168652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 210
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa47124fdb64f750800000000000000
+      internalID: 6337809182247832239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 210
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ee25caee5fd6420800000000000000
+      internalID: 2625024563269004946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 210
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b253f1a200674c0800000000000000
+      internalID: -4290241414111614095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 177
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d14b6c0d8ff01840800000000000000
+      internalID: 5192931351622009299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 177
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2405bbecb47b42780800000000000000
+      internalID: -8708634243208884158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall1_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 270
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283d06615395b53a0800000000000000
+      internalID: -6675643938103045246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall1_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 270
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07eebfebf5203de70800000000000000
+      internalID: 9138650679114198640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall1_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 270
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edae8595b06163d30800000000000000
+      internalID: 4410737123055430366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall1_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 270
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54269a14ecf1a320800000000000000
+      internalID: 2567611319206683738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall1_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 209
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07204c04d4d1321a0800000000000000
+      internalID: -6835587591782006160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall1_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 209
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20118c5b1d30c6900800000000000000
+      internalID: 678921843058938114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall2_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 240
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8230c0396c82b90800000000000000
+      internalID: -7266339663898269518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall2_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 240
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d86bd517f97d9a60800000000000000
+      internalID: 7682430641494517975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall2_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea46d1fcac2a9bd60800000000000000
+      internalID: 7906529612767519918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall2_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 240
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14457cafcfcf4480800000000000000
+      internalID: -8912676646684376033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall2_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 179
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ceb8ad890c38980800000000000000
+      internalID: -8537768705830163379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall2_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 179
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b839accc1e78480800000000000000
+      internalID: -8896894269158880417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_22
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 210
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708c45df9bb09bd70800000000000000
+      internalID: 9059285018879510535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_23
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 90
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac543eb580a75af0800000000000000
+      internalID: -407680744971543389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_24
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 90
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cfe85ae69351390800000000000000
+      internalID: -7848303628236424075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_25
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 122
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1e31e28522f0320800000000000000
+      internalID: 2526275678103658980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 92
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03b26d081c44ce00800000000000000
+      internalID: 1064059078153777933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_27
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 90
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437254fa5a3dd0280800000000000000
+      internalID: -9075364965518072012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_28
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 58
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639aab632043d4560800000000000000
+      internalID: 7299547755150223670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_29
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 58
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8814ab753a43f3b20800000000000000
+      internalID: 3116267343319810440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 90
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: 5}
+        - {x: -15, y: 13}
+        - {x: 15, y: 13}
+        - {x: 15, y: 5}
+        - {x: 13, y: 5}
+        - {x: 13, y: -15}
+        - {x: 5, y: -15}
+        - {x: 5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362716beb443f9cf0800000000000000
+      internalID: -243418354178493853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_31
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 120
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: 5}
+        - {x: -15, y: 10}
+        - {x: 6, y: 10}
+        - {x: 13, y: 10}
+        - {x: 13, y: -15}
+        - {x: 5, y: -15}
+        - {x: 5, y: 3}
+        - {x: 5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0051720ba9ed0e0800000000000000
+      internalID: -2243185483023318819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_32
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 120
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: 5}
+        - {x: -15, y: 13}
+        - {x: 15, y: 13}
+        - {x: 15, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec85b7982c3a2aa10800000000000000
+      internalID: 1919276447138797774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 90
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 5}
+        - {x: 5, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658bb4567f7804d10800000000000000
+      internalID: 2107834122235525206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 270
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5942ac99c0c8e30800000000000000
+      internalID: 4506991181751948719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_35
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 30
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d7eefda0243cde0800000000000000
+      internalID: -1314134051787997877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_36
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 30
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cffce3d9cbb07e10800000000000000
+      internalID: 2193459494047776704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_37
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596f6ded10ecc3690800000000000000
+      internalID: -7620989961988802923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_38
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad185a1bc1b5e760800000000000000
+      internalID: 7486585441451777445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce788fad850eaa220800000000000000
+      internalID: 2498055615565826028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_40
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965a857496941d960800000000000000
+      internalID: 7624956360632345961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesSewers_41
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c42de23d1e60ad0800000000000000
+      internalID: -2736251426441114547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
