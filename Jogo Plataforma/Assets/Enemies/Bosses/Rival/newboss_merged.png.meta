@@ -1,0 +1,838 @@
+fileFormatVersion: 2
+guid: 98f97468e1556d7429a400a89b4c7aff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7497590771867296122
+    second: newboss_merged_0
+  - first:
+      213: -4117873791014800843
+    second: newboss_merged_1
+  - first:
+      213: -9125474624490190081
+    second: newboss_merged_2
+  - first:
+      213: -4125789527170864223
+    second: newboss_merged_3
+  - first:
+      213: -2272431073734038552
+    second: newboss_merged_4
+  - first:
+      213: 317073626215219069
+    second: newboss_merged_5
+  - first:
+      213: 7704710473495611598
+    second: newboss_merged_6
+  - first:
+      213: 5521573175219865789
+    second: newboss_merged_7
+  - first:
+      213: 6725077747916330440
+    second: newboss_merged_8
+  - first:
+      213: 8378720925002905301
+    second: newboss_merged_9
+  - first:
+      213: 6178047975110710369
+    second: newboss_merged_10
+  - first:
+      213: 5684295337167134684
+    second: newboss_merged_11
+  - first:
+      213: -878060219765191365
+    second: newboss_merged_12
+  - first:
+      213: 7134096658608382657
+    second: newboss_merged_13
+  - first:
+      213: -3236132295784887672
+    second: newboss_merged_14
+  - first:
+      213: -4946870067504673766
+    second: newboss_merged_15
+  - first:
+      213: 1470990598175048238
+    second: newboss_merged_16
+  - first:
+      213: -2666272216304299991
+    second: newboss_merged_17
+  - first:
+      213: -5722040669723221707
+    second: newboss_merged_18
+  - first:
+      213: -5073717690793309468
+    second: newboss_merged_19
+  - first:
+      213: -3547094649292683309
+    second: newboss_merged_20
+  - first:
+      213: 4595138481322338882
+    second: newboss_merged_21
+  - first:
+      213: -2797977366169903352
+    second: newboss_merged_22
+  - first:
+      213: -7601120774216698021
+    second: newboss_merged_23
+  - first:
+      213: 944572958074492236
+    second: newboss_merged_24
+  - first:
+      213: 1366215369410508499
+    second: newboss_merged_25
+  - first:
+      213: 8559945237279125468
+    second: newboss_merged_26
+  - first:
+      213: 5074329952139213094
+    second: newboss_merged_27
+  - first:
+      213: 8689945064117627700
+    second: newboss_merged_28
+  - first:
+      213: 3782148799138548154
+    second: newboss_merged_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: newboss_merged_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e5a9bbae433f790800000000000000
+      internalID: -7497590771867296122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 196
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532fba0ca9f5ad6c0800000000000000
+      internalID: -4117873791014800843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 196
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffacb688d2dcb5180800000000000000
+      internalID: -9125474624490190081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 196
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab24fec8404eb6c0800000000000000
+      internalID: -4125789527170864223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 196
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebe5817af3b670e0800000000000000
+      internalID: -2272431073734038552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 196
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ff33a78c8766400800000000000000
+      internalID: 317073626215219069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 196
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec800f5ba51acea60800000000000000
+      internalID: 7704710473495611598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 196
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db84e4e5c8190ac40800000000000000
+      internalID: 5521573175219865789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5df6ba496445d50800000000000000
+      internalID: 6725077747916330440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 136
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d63ee6f942374470800000000000000
+      internalID: 8378720925002905301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 136
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1649bc196e5dcb550800000000000000
+      internalID: 6178047975110710369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 136
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf91421e7ca2ee40800000000000000
+      internalID: 5684295337167134684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 136
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d8e7dd1e080d3f0800000000000000
+      internalID: -878060219765191365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 136
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c267a9ec17610360800000000000000
+      internalID: 7134096658608382657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 136
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a829f92d2f613d0800000000000000
+      internalID: -3236132295784887672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_15
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 136
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c0f5c12ef295bb0800000000000000
+      internalID: -4946870067504673766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22c928c7220a6410800000000000000
+      internalID: 1470990598175048238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 76
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92050b8bb8f7ffad0800000000000000
+      internalID: -2666272216304299991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 76
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5312fcad35a3790b0800000000000000
+      internalID: -5722040669723221707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 76
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea46a554a88699b0800000000000000
+      internalID: -5073717690793309468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 76
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d78834b53036cec0800000000000000
+      internalID: -3547094649292683309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 76
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a22f84a1635cf30800000000000000
+      internalID: 4595138481322338882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_22
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 76
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f1cd7e8669b29d0800000000000000
+      internalID: -2797977366169903352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 76
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57b8f5ade4638690800000000000000
+      internalID: -7601120774216698021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45587ec91ccb1d00800000000000000
+      internalID: 944572958074492236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 16
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d67464d3a5c5f210800000000000000
+      internalID: 1366215369410508499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 16
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5083333, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfa1dc37d80bc670800000000000000
+      internalID: 8559945237279125468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 16
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5083333, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629f16ed434ab6640800000000000000
+      internalID: 5074329952139213094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43be3689ef2e89870800000000000000
+      internalID: 8689945064117627700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newboss_merged_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 16
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.21666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9c25c4b44ec7430800000000000000
+      internalID: 3782148799138548154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

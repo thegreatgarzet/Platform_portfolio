@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: PipeTile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 1033258954486771317, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: -1779468416291498607, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: -871772656808887029, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: 8556539871013954289, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: 5307822471208489099, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: 4009148489430297968, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: -5082690175721151210, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: -8804308323208950789, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: -6967750453953534764, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: -3097577841244249678, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: 1028749803693915505, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: 3585923012875620570, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: 6595691962889827311, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  - {fileID: -2927210105564087322, guid: bc4d9b62db3764b42930dec8f4b3e7ac, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 1
